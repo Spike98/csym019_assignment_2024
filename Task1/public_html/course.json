@@ -1,6 +1,6 @@
 {
     "courses" : [
-      {
+        {
         "title": "Accounting and Finance",
         "level":"Msc",
         "overview": "The University of Northampton’s MSc Accounting and Finance course provides you with the essential skills needed for pursuing a high level career in finance across all types of organisations; public and private sector, within industry and commerce, both in the UK and abroad. If you are looking to enhance your career prospects, this Accounting and Finance MSc course can provide a contextual understanding of how accounting and finance operates within the business environment. You will examine how financial decisions are made within business, as well as the repercussions on broader society of corporate and financial decisions.",
@@ -11,59 +11,23 @@
         ],
         "course_content":{ 
             "course_details":{
-                "info":"The MSc Accounting and Finance course is designed to enhance your intellectual and transferable skills, including presentation, research, analysis and appraisal. This masters in Accounting and Finance addresses many of the current accounting issues present in business and how they relate to wider social, technical and economic challenges. You will also have the opportunity to study a specialist interest of your choice.\nBy gaining your Accounting and Finance masters through the University of Northampton, you will gain practical knowledge that can be applied in a work setting, with flexible study that is delivered online. You will also benefit from the full support of professionally qualified staff and engagement with your fellow students.\nSome exemptions from professional examinations are available from main professional bodies, including the Association of Chartered Certified Accountants (ACCA) and Chartered Institute of Management Accountants (CIMA), meaning you will have to pass fewer professional body examinations in order to become a Chartered Accountant.\nThere is also an Industry Placement Option, which enables you to develop your skills and knowledge in a real-world environment, while completing an applied research project. This will give you an advantage over the competition for accounting and finance jobs and scholarships after you graduate.\nThe placement should be paid and will need to be appropriate to your level of study. We’ll support you in securing a suitable placement opportunity, but do note that they are highly competitive and there is no guarantee of an employer making a placement offer. Those unable or unwilling to progress with an industry placement have the option to transfer onto our Dissertation and Research Methods module to gain the required credits to complete your programme of study.We expect that you will start this Accounting and Finance MSc with a good deal of technical accounting knowledge, having either studied accounting at undergraduate or professional level. You will be provided with theoretical background and applied knowledge at Master’s level that allows you to build upon your existing skills.\n\nOn completion of the course, you will be familiar with theoretical issues in accountancy and finance, and will be able to apply accounting theory and practice to real issues that are faced in day-to-day operations. This will provide you with an excellent framework for pursuing further study, or enhancing your business prospects.",
-                "industry_placement":"The industry placement enables you to develop your skills and knowledge in a real-world work environment, whilst completing an applied research project. This will give you an advantage over the competition for jobs and scholarships after you graduate and could be a good starting point for setting up your own consultancy business.\nYour placement will need to be appropriate to your level of study and you should also be paid for this work. We will support you in finding and securing a suitable placement opportunity, however it must be noted that placements are highly competitive and there is no guarantee of a placement offer being made by an employer.\nIf you are unable or unwilling to progress with an industry placement, for whatever reason, you will have the option to transfer onto our Dissertation and Research Methods module in order to gain the required credits to complete your Accounting and Finance masters programme of study.",
                 "modules":{
                         "stage_1":[
-                            {
-                            "name":"Corporate Reporting 1",
-                            "credits":"20",
-                            "code":"FINM008",
-                            "status":"Compulsory"    
-                        },
-                        {
-                            "name":"Global Financial Strategy",
-                            "credits":"20",
-                            "code":"FINM009",
-                            "status":"Compulsory" 
-                        },
-                        {
-                            "name":"Financial and Business Strategy",
-                            "credits":"20",
-                            "code":"FINM010",
-                            "status":"Compulsory"     
-                        },
-                        {
-                            "name":"Strategic Audit",
-                            "credits":"20",
-                            "code":"FINM012",
-                            "status":"Compulsory" 
-                        },
-                        {
-                            "name":"Investment Analysis",
-                            "credits":"20",
-                            "code":"FINM014",
-                            "status":"Compulsory" 
-                        },
-                        {
-                            "name":"Corporate Social Responsibility and Governance",
-                            "credits":"20",
-                            "code":"FINM024",
-                            "status":"Compulsory"
-                        },
-                        {
-                            "name":"Dissertation and Research Methods",
-                            "credits":"60",
-                            "code":"FINM025",
-                            "status":"Compulsory"
-                        }
-                ]}
+                            "Corporate Reporting 1(FINM008) - Compulsory",
+                            "Global Financial Strategy(FINM009) - Compulsory",                         
+                            "Financial and Business Strategy(FINM010) - Compulsory",
+                            "Strategic Audit (FINM012) - Compulsory",
+                            "Investment Analysis (FINM014) - Compulsory",
+                            "Corporate Social Responsibility and Governance (FINM024) - Compulsory",
+                            "Dissertation and Research Methods (FINM025) - Compulsory"
+                        ]
+                }
         },
-        "entry_requirements": [
+            "entry_requirements": [
                 "If you hold a recognised first or second class honours degree from a UK university or international equivalent in finance, banking, accounting or a related discipline then you will meet our Accounting and Finance Master’s degree entry requirements for this course. If you hold professional qualifications, you will also be considered for entry onto this course.\nFor more information on how to make an application for MSc Accounting and Finance, please visit our How to Apply page.\nIf you are an International student and would like information on making an application, please see our How to Apply page.\n",
                 "English Language Requirements\n\nAll International and EU students applying for a course with us must meet the following minimum English language requirements:\nMinimum standard – IELTS 6.5 (or equivalent) for study at postgraduate level.For information regarding English language requirements at the University, please see our IELTS page."   
         ],
-        "fees_funding": {
+            "fees_funding": {
                 "2024_2025":{
                     "desc":"Fees quoted for the Accounting and Finance masters relate to study in the Academic Year 2024/25 only and may be subject to inflationary increases in future years*.",
                     "UK_Full_Time":"£8,250",
@@ -73,16 +37,8 @@
                     ]
                 },
                 "additional_costs":"There are no additional costs for this course for students beginning their studies in September 2024. Should this change, applicants and students will be contacted by the university with details of the costs."
+        }
         },
-        "professional_body": [
-                "Successful completion of the MSc Accounting and Finance gives exemptions from some of the examinations of the relevant professional bodies, meaning you will have to take fewer exams on your way to becoming a Chartered Accountant.\nAssociation of Chartered Certified Accountants (ACCA)\nYou will have exemptions from the following 4 papers:",
-                "Business and Technology (BT)",
-                "Management Accounting (MA)",
-                "Financial Accounting (FA)",
-                "Corporate and Business Law (LW)",
-                "Chartered Institute of Management Accountants (CIMA)",
-                "You will be eligible for the masters gateway route. Once you have passed the CIMA Gateway Exam, you will be granted entry to the Professional Qualification at Strategic Level."
-        ]},
         "staff":[
             "https://www.northampton.ac.uk/directories/people/ahmad-haboub/",
             "https://www.northampton.ac.uk/directories/people/stuart-farquhar/",
@@ -98,10 +54,10 @@
             "Financial and Investment Analysis MSc":"https://www.northampton.ac.uk/courses/financial-and-investment-analysis-msc/",
             "Master of Business Administration – Finance MBA":"https://www.northampton.ac.uk/courses/master-of-business-administration-finance-mba/"                
         },
-        "icon": "/csym019_assignment_2024/accounting_finance.png"
+        "icon": "/C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/accounting_finance.png"
             
     },
-    {
+        {
      "title": "Advanced Clinical Practice",
         "level":"Msc",
         "overview": "The University of Northampton’s MSc Advanced Clinical Practice course aims to equip healthcare professionals with advanced clinical skills and knowledge needed to lead and develop complex evidence-based clinical decisions, whilst enhancing service delivery and improving health outcomes within Practice. Linked to the four pillars of ‘Advanced Practice’; clinical, education, leadership and research; students studying for their masters in advanced clinical practice will also benefit from learning with specialists from a range of healthcare settings, whilst ensuring patient safety and ethical practice.",
@@ -113,25 +69,24 @@
         ],
         "course_content":{ 
             "course_details": {
-                "info":"Advanced clinical practitioners (ACPs) enhance capacity and capability within teams by supporting existing and more established roles. They improve clinical continuity, provide more patient-focused care, enhance the inter-professional team and help to provide safe, accessible and high-quality care for patients (HEE, 2017).\n\nThe University of Northampton’s MSc in Advanced Clinical Practice course is designed in a systematic manner using a modular approach which enables it to be flexible enough to respond to the needs of stakeholders whilst recognising that students studying this programme will also be employed within practice settings.  Programme design ensures that the four pillars of advanced practice are developed and met by the end of the programme.\n\nOur MSc ACP suite of programmes will be delivered by a range of teaching methods such as core lectures, group work, online activities, use of case studies and clinical simulation to compliment and enhance work-based learning objectives. Shared learning with other professionals will be a focus of this course and you will be encouraged to develop a critical, evaluative approach to the knowledge embedding the four pillars of advanced clinical practice.\n\nThe full MSc Advanced Clinical Practice award consists of six compulsory modules (180 credits) which include:\n\nNURM080 Advanced Assessment and Clinical Reasoning (40 credits)\nNURM081 Diagnostic Reasoning for Practice (20 credits)\nNURM114 Independent and Supplementary Prescribing (40 credits)\nNURM079 Educating and Influencing Others in Healthcare (20 credits)\nNURM110 Advanced Professional Projects (40 credits)\nNURM144 Research Dissemination (20 credits)\nThe PGCert in Clinical Practice requires you to complete NURM080 and NURM081 (60 credits)\nThe PGDip in Advanced Clinical Practice requires you to complete NURM080, NURM081, NURM114 and NURM079 (120 credits)\n\nSupervisor\nClinical supervision throughout the programme is recommended to support development.  Masters in Advanced Clinical Practice Students will be required to identify a suitable clinical supervisor for work-based learning modules (NURM080 and NURM114) to supervise and sign off clinical practice skills prior to enrolment.\n\nFor further information on the above awards or its associated modules, please contact the team on advancedpractice@northampton.ac.uk",
                 "modules": [
-                    "Module information can be found on the Award Map:",
                     "Postgraduate Certificate in Clinical Practice",
                     "Postgraduate Diploma in Advanced Clinical Practice",
                     "MSc Advanced Clinical Practice Degree Apprenticeship",
                     "MSc Advanced Clinical Practice",
                     "MSc Advanced Clinical Practice (Top-Up)"
             ]},
-        "entry_requirements": [
+            "entry_requirements": [
             "Applicants must hold an appropriate healthcare or bachelor’s degree with honours.\nCurrent professional body registration (UK registered).\nEmployment within a relevant health and social care related environment.",
             "Nurses, midwives, allied health professionals and pharmacists with current professional body registrations are encouraged to apply.",
             "Students who do not have a relevant Bachelor degree must satisfy the University that by virtue of their professional standing, qualification and/or training that they are fit to register for, and to benefit them from, their proposed programme of study. Evidence of recent level 6 study is required.",
             "Please note that for NURM114, additional PSRB criteria apply for studying this module.",
             "For further information regarding the award and its associated modules, please contact Laura Elliott, Programme Lead, via advancedpractice@northampton.ac.uk"    
             ],
-        "fees_funding": {
+            "fees_funding": {
                 "2024_2025":{
                     "desc":"Fees quoted relate to study in the Academic Year 24/25 only and may be subject to inflationary increases in future years.",
+                    "International_Full_Time":"",
                     "UK_Part_Time":"£920 per 20 Credit Module",
                     "UK_Postgraduate_Certificate_in_Advanced_Clinical_Practice":"(60 Credits) £2,760 (1 Year)",
                     "UK_Postgraduate_Diploma_in_Advanced_Clinical_Practice":"(120 Credits) £5,520 (2 Years)",
@@ -139,21 +94,14 @@
                     "UK_MSc Advanced_Clinical_Practice_(Full_Award_180_Credits)":"Year 1 (60 Credits) £2,760, Year 2 (60Credits) £2,760* (*may be subject to inflationary increase in 25/26), Year 3 (60 Credits) £2,760*(*may be subject to inflationary increase in 26/27)",
                     "UK_MSc_ACP_Degree_Apprenticeship":"- can be fully, or part, funded by the apprenticeship levy.",
                     "extra_info":"Employers can contact the apprenticeship team for further information via apprenticeships@northampton.ac.uk"
-                },
-                "Postgraduate_Loans":"If you are starting a postgraduate master’s course in 2021/22 you may be able to apply for a Master’s Loan through Student Finance England.",
-                "Scholarships_Bursaries":"For information on the scholarships available to you, please see our scholarships page.\n\nFor more information about possible funding options, please visit our Fees and Funding pages."
+                }
+            }
         },
-        "programme_accrediation": [
-                "Centre for Advancing Practice accreditation\nThis advanced nurse practitioner course is accredited by the Centre of Advancing Practice. NHS England’s Centre for Advancing Practice has been established to standardise post-registration education by accrediting advanced practice courses that achieve the standards outlined in the multi-professional Advanced Practice Framework.",
-                "Practitioners who have completed accredited education programmes will be eligible to be listed on the Centre’s Advanced Practice Directory.",
-                "Programme accreditation from the Centre for Advancing Practice will bring a new level of consistency to the workforce and help showcase advanced practice within health and social care."
-        ]},
         "staff":[
             "https://www.northampton.ac.uk/directories/people/laura-elliott/",
             "https://www.northampton.ac.uk/directories/people/jonathan-mounsey/",
             "https://www.northampton.ac.uk/directories/people/julie-holloway/"    
         ],
-        "further_studies": "There is opportunity for those who wish to continue educational study and work at academic Level 8 on completion of the MSc Advanced Clinical Practice award, to register for the Doctor of Professional Practice or a PhD which are also offered at the University of Northampton.",
         "facilities":[
             "https://www.northampton.ac.uk/facility/learning-hub/"
             ],
@@ -162,7 +110,8 @@
             "Public Health MSc":"https://www.northampton.ac.uk/courses/public-health-msc/",
             "Advanced Occupational Therapy MSc":"https://www.northampton.ac.uk/courses/advanced-occupational-therapy-msc/",
             "Doctor of Professional Practice in Health and Social Care":"https://www.northampton.ac.uk/courses/advanced-occupational-therapy-msc/"    
-            }   
+            },
+        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/advanced_clinical.png"
         },
         {
         "title": "Financial and Investment Analysis",
@@ -179,7 +128,6 @@
                 "industry_placement":"The financial industry placement enables you to develop your skills and knowledge in a real-world work environment, whilst completing an applied research project. This will give you an advantage over the competition for jobs and scholarships after you graduate and could be a good starting point for setting up your own consultancy business.\n\nYour placement will need to be appropriate to your level of study and you should also be paid for this work. We will support you in finding and securing a suitable placement opportunity, however it must be noted that placements are highly competitive and there is no guarantee of a placement offer being made by an employer.\n\nIf you are unable or unwilling to progress with an industry placement, for whatever reason, you will have the option to transfer onto our Dissertation and Research Methods module in order to gain the required credits to complete your programme of study.",
                 "modules":[
                     "Module information for the Placement route and Non-Placement route for MSc Financial and Investment",
-                    "Analysis can be found on the award maps:",
                     "MSc Financial and Investment Analysis (Placement Route) Award Map",
                     "MSc Financial and Investment Analysis (Non-Placement Route) Award Map"
                 ]
@@ -209,7 +157,8 @@
         "careers_employability": "Graduates of the MSc finance and investment analysis programme who complete the professional exams can expect to take up roles within Asset Management, Accounting and Finance, Investment Banking (Mergers & Acquisition), Wealth Management, Equities, Private Equity, Risk Management, Research, Corporate Banking, Consulting, Fixed Income, Derivatives, Hedge Funds and Information Technology.",
         "relatedCourses":{
             "Accounting and Finance (Top-Up) MSc":"https://www.northampton.ac.uk/courses/accounting-and-finance-msc/"               
-            }
+            },
+        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/financial_investment.png"
         },
         {"title": "Finance MBA",
         "level":"Msc",
@@ -222,73 +171,21 @@
         ],
         "course_content":{ 
             "course_details": {
-                "info":"Studying our MBA Finance pathway will support your career progression by developing your critical thinking and research skills and enhancing your business knowledge and understanding.\n\nYou will learn to think laterally, challenge convention and offer informed solutions to business issues. You will gain valuable skills that will set you apart from colleagues, allowing you to progress to your full career potential.\n\nMBA Finance pathway equips you with the knowledge and critical understanding of contemporary themes relevant to managing successful businesses and prepares learners to become future entrepreneurs, business owners, and/or managers and leaders through critical engagement with the dynamic and disruptive international business environment that prioritise sustainability and ethical standards.\n\nThe MBA finance pathway includes a variety of finance related modules that are designed to improve technical and sophisticated understanding of financial matters such as corporate financing and risk management as well as investing and trading in global markets. The MBA finance pathway emphasises the global dimensions of financial markets and sustainable business environment enriched by the recent academic research and is informed by real-world examples and recent trends in financial markets such as digital finance and cryptocurrency.",
-                "industry_placement":"You can elect to participate in a Work Placement – completing the modules ‘Career Futures: Employability Skills’ and ‘Work-Based Project’. The year in industry will develop your real-world experience and you will undertake an applied research project that identifies and provides a response to an industry-specific problem.\n\nYour placement will last between six and 12 months, must be appropriate to your level of study and should also be paid. We will support you in finding and securing a suitable placement opportunity, however it must be noted that placements are highly competitive and there is no guarantee of a placement offer being made by an employer.\n\nWhilst on placement you will attend two full-day workshops held at the University, and complete a work-based project on the organisation in which you are working.",
                 "modules":{
-                        "desc":"The below modules are for the MBA Finance Non-Placement route. To see the modules for the Placement route, please see the MBA Finance (Placement route) Award Map.\n\nPlease note the modules shown here relate to the academic year 23/24. The modules relating to the academic year 24/25 will be available from June 2024.",
                         "stage_1":[
-                        {
-                        "name":"Digital Business",
-                        "credits":"20",
-                        "code":"BSOM083",
-                        "status":"Compulsory"    
-                    },
-                        {
-                        "name":"Practical Data Analysis for Business",
-                        "credits":"10",
-                        "code":"BSOM084",
-                        "status":"Compulsory" 
-                    },
-                        {
-                        "name":"Measuring Organisational Performance",
-                        "credits":"10",
-                        "code":"FINM074",
-                        "status":"Compulsory"     
-                    },
-                        {
-                        "name":"Major Project (Standard)",
-                        "credits":"40",
-                        "code":"FINM081",
-                        "status":"Compulsory" 
-                    },
-                        {
-                        "name":"Financial Markets and Financial Technology",
-                        "credits":"20",
-                        "code":"FINM900",
-                        "status":"Compulsory" 
-                    },
-                        {
-                        "name":"Financing and Investment Decisions for Business",
-                        "credits":"20",
-                        "code":"FINM901",
-                        "status":"Compulsory"
-                    },
-                        {
-                        "name":"Sustainable Financial and Management Reporting",
-                        "credits":"20",
-                        "code":"FINM902",
-                        "status":"Compulsory"
-                    },
-                    {
-                        "name":"Skills for MBA Study",
-                        "credits":"10",
-                        "code":"HRMM079",
-                        "status":"Compulsory"
-                    },
-                    {
-                        "name":"Ethical and Responsible Leadership",
-                        "credits":"20",
-                        "code":"HRMM080",
-                        "status":"Compulsory"
-                    },
-                    {
-                        "name":"Strategy and Decision Making",
-                        "credits":"10",
-                        "code":"STRM085",
-                        "status":"Compulsory"
-                    }],
-                    "extra_details":"*Only applicable to students studying MBA (with Work Placement) full-time on campus, directly through The University of Northampton.\n**Optional – not included in course fees and it is subject to government policy on international travel and COVID-19 restrictions\n***Optional – membership and/or examination fees not included as part of course fees."
-                }},
+                            "Digital Business (BSOM083) - Compulsory",
+                            "Practical Data Analysis for Business (BSOM084) - Compulsory",
+                            "Measuring Organisational Performance (FINM074) - Compulsory",
+                            "Major Project (Standard) (FINM081) - Compulsory",
+                            "Financial Markets and Financial Technology (FINM900) - Compulsory",
+                            "Financing and Investment Decisions for Business (FINM901) - Compulsory",
+                            "Sustainable Financial and Management Reporting (FINM902) - Compulsory",
+                            "Skills for MBA Study (HRMM079) - Compulsory",
+                            "Ethical and Responsible Leadership (HRMM080) - Compulsory",
+                            "Strategy and Decision Making (STRM085) - Compulsory"
+                        ]
+                    }
+            },
         "entry_requirements": [
                 "If you hold a first or second class honours degree from a British university or equivalent, you will be eligible to apply for this course. Work experience is useful but is not an essential MBA entry requirement, so long as you can demonstrate a clear passion and interest in business and/or enterprise.",
                 "If English is not your first language, you must meet the following English language requirements:\n\nIELTS 6.5 overall with a minimum of 6.0 in writing and 5.5 in all other skills.\n\nEquivalent qualifications are considered, for further information regarding English language requirements at the University, please see our English Language Requirements page."   
@@ -317,8 +214,8 @@
             "Master of Business Administration MBA":"https://www.northampton.ac.uk/courses/master-of-business-administration-mba/",
             "Executive Master of Business Administration MBA":"https://www.northampton.ac.uk/courses/master-of-business-administration-executive-distance-learning/",
             "Executive Master of Business Administration (Top-Up) MBA":"https://www.northampton.ac.uk/courses/executive-mba-top-up/"
-                }
-
+        },
+        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/finance_mba.png"
         },
         {
         "title": "Public Health",
@@ -331,33 +228,23 @@
         ],
         "course_content":{ 
             "course_details":{                 
-            "info":"Our MSc Public Health will be delivered by a range of teaching methods such as core lectures, group work, online activities, use of case studies and directed learning approaches. Shared learning with other professionals will be a focus of this course and you will be encouraged to develop a critical, evaluative approach to the knowledge which underpins present-day public health practice.",
-            "compulsory modules":{
-                    "desc":"This Master’s award prepares you for a career in Public Health at both strategic and operational levels. The full MSc consists of six compulsory modules, which include:",
-                    "research methods":[
-                        "Philosophy and Design",
-                        "Leading Public Health Practice",
-                        "Health Protection and Prevention* (subject to approval)",
-                        "Principles and Practice of Health Promotion",
-                        "Epidemiology",
-                        "Professional Project."
-                    ]
-            },
-           "other modules":{
-                "desc":"You will need to study all of the compulsory modules on this masters in Public Health as well as choose from one designated module from the following subject areas:",
-                "subject areas":[
-                    "Voluntary Sector Placement",
-                    "Comparative Health Care Systems",
-                    "Advancing Public Health Leadership* (subject to approval)."
-                ],
-                "info":"These designated modules have been identified as offering a range of public health topics which you can choose depending on your experience. All modules (except the Professional Project) incorporate 200 hours of learning, which includes taught sessions as well as self-directed independent study and assignment preparation. Furthermore, (included in the 200 hours) are six study days, in which you are expected to either attend lectures or work online on electronic activities via the online learning environment, NILE.\n\nThe teaching team have created a flexible and challenging Public Health masters programme, which incorporates face-to-face teaching, workshops and tutorials, as well as three of the core modules having an extensive self-directed online component. Opportunities exist to undertake a volunteering post within a Public Health environment and to gain experience of working within a non-Governmental organisation whilst ‘giving back’ to the vulnerable in society. This reflects the University’s Changemaker ethos which strives to identify and respond to societal issues in a proactive, sustainable and ethical manner.\n\nEmbedded within the Public Health course are sessions from the Changemaker Hub, which offer support and advice in cohort groups and on a one-to-one basis for CV writing, interview techniques and help with locating a volunteer placement. These skills are invaluable when it comes to applying for employment or PhD study."
-            }
+                "modules":[
+                        "Philosophy and Design - Compulsory",
+                        "Leading Public Health Practice - Compulsory ",
+                        "Health Protection and Prevention* (subject to approval) - Compulsory",
+                        "Principles and Practice of Health Promotion - Compulsory",
+                        "Epidemiology - Compulsory",
+                        "Professional Project - Compulsory",
+                        "Voluntary Sector Placement - Other",
+                        "Comparative Health Care Systems - Other",
+                        "Advancing Public Health Leadership* - Other"
+                ]
            },
-        "entry_requirements": [
+            "entry_requirements": [
                 "Applicants will normally hold a recognised First- or Second-class Honours degree in a subject area that demonstrates applicability to public health practice including:\n\nDentistry, pharmacy, biology, medicine, public health, nursing, environmental health, biomedical health/science, podiatry, occupational therapy, physiotherapy, psychology, microbiology, biochemistry.Homeopathic Medicine (including degrees in Ayurvedic Medicine and Surgery) are acceptable.Degrees in Zoology and most medical/health background undergraduate degrees are acceptable. This includes degrees such as BSc Profusion Technology and BSc Radiology.Applications listing degrees not shown above may be referred to the course tutor to assess suitability for the programme. We will need to see:\n\nDegree transcripts with exact modules studied.\nEvidence of experience in public health (if applicable).\nReferences for suitability.",
                 "English Language Requirements\n\nAll applicants for whom English is not their first language will need to demonstrate that they meet the minimum English language requirement of IELTS 6.5 overall with a score no lower than 6.0 for writing and no remaining band/component below 5.5 (or equivalent).\n\nFor information regarding English language requirements at the University, please see our IELTS page."   
         ],
-        "fees_funding": {
+            "fees_funding": {
                 "2024_2025":{
                     "desc":"Fees quoted for the masters degree in public health relate to study in the Academic Year 24/25 only and may be subject to inflationary increases in future years.",
                     "UK_Full_Time":"£8,250",
@@ -391,9 +278,11 @@
             "Doctor of Professional Practice in Health and Social Care":"https://www.northampton.ac.uk/courses/doctorate-of-professional-practice/",
             "Advancing Practice MSc":"https://www.northampton.ac.uk/courses/advancing-practice-msc/",
             "Child and Adolescent Mental Health (CAMH) MSc":"https://www.northampton.ac.uk/courses/child-and-adolescent-mental-health-msc/"    
-            }
+            },
+        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/public_health.png"
+       
         },
-    {
+        {
      "title": "Accounting and Finance(Hons)",
         "level":"BSc",
         "overview": "Accounting is more than just a computational skill and  the University of Northampton’s Accounting and Finance BSc degree will develop your ability to analyse and evaluate real-life situations and effectively communicate your views and opinions.\n\nThe course will begin by considering the practical techniques involved in accounting and finance and then continue to build on skills to critically analyse the theory behind these techniques. It will also develop the interdisciplinary nature of business and integrate accounting with broader subject areas such as economics, law and human resources. There is also the option to complete a year’s accounting and finance work placement to prepare you for your future career.",
@@ -407,127 +296,36 @@
         ],
         "course_content":{ 
             "course_details":{ 
-               "info":"The Accounting and Finance BSc will begin by considering the practical techniques involved in accounting and finance and then continue to develop skills to critically analyse the theory behind these techniques. It will also develop the interdisciplinary nature of business and integrate accounting with broader subject areas such as economics, law and human resources.\n\nThere is also the option to complete a year’s work placement to prepare you for your future career in accounting and finance.\n\nNationwide, MacIntyre Hudson and Mazars are examples of recent visits and are also some of the sponsors who provide prizes at our annual awards ceremony. Local sponsors include Grant Thorntons, Hawsons and Elsby. Elsby are a growing company who will be developing a ‘Young Professionals Networking Platform’ in conjunction with the university in the very near future.\n\nAt the Accounting, Finance and Banking Awards, which were incorporated into our Graduation celebrations, £1,000 was given out in prize money to our students. Grant Thorntons, Hawsons Chartered Accountants, McIntyre Hudson and Mazars were amongst the companies sponsoring these awards.",
-               "industry_placement":"If you meet the entry criteria, and choose to take an accounting and finance placement year, you will find it an invaluable experience that helps you to apply your learning in your final year and prepares you for your career in finance. We offer support in helping you to find a placement, which can be in the UK or overseas.\n\nThe Faculty of Business and Law have a dedicated Placements team who will support you through the process of taking a placement year. You can follow the Faculty of Business and Law Placements Team to hear more about their services.",
-                "modules":{
-                        "description":[
-                        "The modules for the BSc Accounting and Finance course have recently been redesigned. The new structure means you will study fixed modules in Year 1 and Year 2 to ensure you develop the foundation knowledge and skills for both Financial Accounting and Management Accounting. As you progress to your final year, you will choose designated modules, allowing you to specialise and gain maximum exemption from professional bodies.\n\nThe programme redesign incorporates CIMA and ACCA’s updated syllabus, which they think reflects the employability and critical skills employers are looking for in graduates. Our Accounting and Finance degree now has 6 streams, with each stream including 3 modules, that are taught from Year 1 to Year 3. The programme streams are:",
-                        "Digital (Digital Economic Environment, Digital Business and Finance, Strategy and Leadership)",
-                        "Responsible Practice (Responsible Accounting, The Professional Accountant, Corporate Governance or Practical Auditing)",
-                        "Finance (Financial Skills for Business, Financial Management, Corporate Finance)",
-                        "Compliance (Corporate and Business Law, Principles of Taxation, Taxation Practice and Advice)",
-                        "Management Accounting (Fundamentals of Management Accounting, Management Accounting for Decision Making, Financial Business Partnering)",
-                        "Financial Accounting (Practical Financial Accounting, Applied Financial Reporting, International Financial Reporting)"
-                            ],
-                        "stage_1":[
-                        "In Year 1, all modules are compulsory. All modules are 20 Credits.",
-                        {
-                        "name":"Financial Skills for Business",
-                        "code":"ACC1025",
-                        "details":"You will have the opportunity to collect, present, analyse and interpret numerical data. You will explore the basic concepts of business mathematics, financial models and statistical methods, which lay the foundation for application of quantitative techniques to support decision making."    
-                    },
-                    {
-                        "name":"Fundamentals of Management Accounting",
-                        "code":"ACC1026",
-                        "details":"You will apply current and emerging management accounting tools and techniques for controlling, planning and decision making in the modern competitive organisational environment." 
-                    },
-                    {
-                        "name":"Practical Financial Accounting",
-                        "code":"ACC1027",
-                        "details":"This module introduces you to terminology, concepts, principles, procedures and techniques of accounting. It provides an essential introduction to the preparation and presentation of financial statements and their relevance to stakeholders and other users."                    
-                    },
-                    {
-                        "name":"Responsible Accounting",
-                        "code":"ACC1028",
-                        "details":"You will explore the principles of responsible accounting built on the foundation of social and environmental justice to promote sustainability within organizations. By applying the sustainable development goals (SDGs), you will explore contemporary global issues related to the transition to responsible business within organisations at international and local levels." 
-                    },
-                    {
-                        "name":"Corporate and Business Law",
-                        "code":"ACC1029",
-                        "details":"You will be introduced to the general legal framework related to a range of business activities and appreciate when to seek specialist legal advice."
-                    },
-                    {
-                        "name":"Digital & Economic Environment",
-                        "code":"ACC1030",
-                        "details":"You will investigate the economic and digital environment within which accountants and other managers operate. The module equips you with the skills for the use of technology in the management of data and creation of value for organisations."
-                    }],
+               "modules":{
+                        
+                    "stage_1":[
+                        "Financial Skills for Business (ACC1025) - Compulsory",
+                        "Fundamentals of Management Accounting (ACC1026) - Compulsory",
+                        "Practical Financial Accounting (ACC1027) - Compulsory",
+                        "Responsible Accounting (ACC1028) - Compulsory",
+                        "Corporate and Business Law (ACC1029) - Compulsory",
+                        "Digital & Economic Environment (ACC1030) - Compulsory"
+                        ],
                     "stage_2":[
-                        "In Year 2, all modules are compulsory. All modules are 20 Credits.",
-                    {
-                        "name":"Financial Management",
-                        "code":"ACC2001",
-                        "details":"This module introduces you to the financing decision and the role of the financial manager in modern corporations. Central to the achievement of the above is a sound knowledge of sources of finance (including capital markets) and a clear understanding and application of the techniques that lead to the justifiable investment and dividend decisions."    
-                    },
-                    {
-                        "name":"Digital Business and Finance",
-                        "code":"ACC2038",
-                        "details":"You will explore the technologies that drive the digital world in which finance operates, and how finance professionals manage data to create and preserve value for organisations. You will examine the skills and competencies framework that finance professionals need to fulfil their roles and to interact with other business areas." 
-                    },
-                    {
-                        "name":"Principles of Taxation",
-                        "code":"ACC2040",
-                        "details":"You will explore the impact of taxation on the financial strategy of individuals and organisations – commercial and non-commercial, national and international. You will apply taxation rules and regulations to assess the effect on financial decision-making."                    
-                    },
-                    {
-                        "name":"Applied Financial Reporting",
-                        "code":"ACC2041",
-                        "details":"In this module you apply accounting standards and the theoretical framework to the preparation, presentation, and interpretation of financial statements. of companies and groups." 
-                    },
-                    {
-                        "name":"Management Accounting for Decision Making",
-                        "code":"ACC2042",
-                        "details":"You will apply and evaluate current and emerging management accounting tools and techniques for managing performance to achieve organisational objectives."
-                    },
-                    {
-                        "name":"The Professional Accountant",
-                        "code":"ACC2043",
-                        "details":"You will explore the role of professional accountants in organisations, applying relevant professional standards. There is a strong emphasis on the role of governance and accountability on efficient, effective and ethical management of an organisation."
-                    }],
-                "stage_3":[
-                    "In Year 3, there is a mix of compulsory and designated modules. All modules are 20 Credits.",
-                    {
-                        "name":"Corporate Finance (Compulsory)",
-                        "code":"ACC3009",
-                        "details":"The purpose of this module is to equip you with theoretical and practical skills in contemporary corporate finance. You explore the complexities of corporate financial management, investment decision making and financial risk."    
-                    },
-                    {
-                        "name":"Financial Business Partnering (Compulsory)",
-                        "code":"ACC3040",
-                        "details":"You will analyse and manage costs to support the implementation of the organisation’s strategy and to control the performance of the organisation. You will be able to apply investment appraisal techniques to evaluate capital investments, and evaluate the risks associated with such decisions." 
-                    },
-                    {
-                        "name":"International Financial Reporting (Compulsory)",
-                        "code":"ACC3041",
-                        "details":"This module equips you to become skilled preparers, analysts and interpreters of published accounts in light of the IFRS. This includes a synthesis of the accounting policies, contemporary developments in accounting regulation and changes in financial reporting standards."                    
-                    },
-                    {
-                        "name":"Practical Auditing (Designated)",
-                        "code":"ACC3042",
-                        "details":"You will critically explore the legal and regulatory environment of assurance engagement. They will apply professional and ethical considerations to critically identify, analyse and conclude on best practice of accountability and transparency." 
-                    },
-                    {
-                        "name":"Strategy and Leadership (Designated)",
-                        "code":"ACC3043",
-                        "details":"In this module you adopt a holistic and integrated approach to organisational leadership, from external and internal perspectives. The module is centred on the concept of business and financial strategy and how it can be implemented through people, projects, processes and relationships."
-                    },
-                    {
-                        "name":"Taxation Practice and Advice (Designated)",
-                        "code":"ACC3044",
-                        "details":"You will complete complex tax calculations, syntheise and communicate these into professional advice. You will explore taxation regulation and strategies in both public and private sector. You will develop an appreciation of taxation, its effects and interconnectedness to financial decision- making at individual, business, corporate, national and international levels."
-                    },
-                    {
-                        "name":"Corporate Governance (Designated)",
-                        "code":"ACC3017",
-                        "details":"The purpose of this module is to examine the practice and key issues of governance within organisations in the national and multinational context.  The module combines theories, codes and regulations, corporate social responsibility and ethics in addressing how modern corporations could adopt effective governance to manage their role and place in the society."
-                    },
-                    {
-                        "name":"Project (Compulsory)",
-                        "code":"ACC4010",
-                        "details":"In this module you will analyse organisational performance, examining core areas of accounting and finance to evaluate strategic decision making. You will further enhance their independent research skills through the investigation of real world scenarios to identify trends and propose responsible and sustainable solutions to challenges faced by organisations."
-                    }
+                        "Financial Management (ACC2001) - Compulsory",
+                        "Digital Business and Finance (ACC2038) - Compulsory",
+                        "Principles of Taxation (ACC2040) - Compulsory",
+                        "Applied Financial Reporting (ACC2041) - Compulsory",
+                        "Management Accounting for Decision Making (ACC2042) - Compulsory",
+                        "The Professional Accountant (ACC2043) - Compulsory"
+                    ],
+                    "stage_3":[
+                        "Corporate Finance (ACC3009) - Compulsory",
+                        "Financial Business Partnering (ACC3040) - Compulsory",
+                        "International Financial Reporting (ACC3041) - Compulsory",
+                        "Practical Auditing (ACC3042) - Designated",
+                        "Strategy and Leadership (ACC3043) - Designated",
+                        "Taxation Practice and Advice (ACC3044) - Designated",
+                        "Corporate Governance (ACC3017) - Designated",
+                        "Project (ACC4010) - Compulsory"                    
                     ]
             }},
-        "entry_requirements": [
+            "entry_requirements": [
             "A typical offer for Accounting and Finance would be:\n\nBBC at A Level or\nDDM at BTEC/Cambridge Technical or\nM at T Level.\nWe welcome applications from students with a mix of A levels and BTEC/Cambridge Technical qualifications.",
             "In addition, you should hold Mathematics GCSE at grade C/4 or above or equivalent.",
             "We welcome international applicants.",
@@ -536,7 +334,7 @@
             "English Language Requirements\nAll International and EU students applying for a course with us must meet the following minimum English language requirements:\n\nIELTS 6.0 (or equivalent) with a minimum of 5.5 in all bands for study at undergraduate level.For information regarding English language requirements at the University, please see our IELTS page.",
             "For information on how to apply to study with us as an International student, please see our How to apply for International Study page."    
             ],
-        "fees_funding": {
+            "fees_funding": {
                 "2024_2025":{
                     "desc":"Fees quoted relate to study in the Academic Year 2024/25 only and may be subject to inflationary increases in future years.",
                     "UK_Full_Time":"£9,250",
@@ -545,18 +343,7 @@
                     "Optional Work Placement Year":"£1,200"
                     },
                 "additional_costs":"There are no additional costs for the accounting and finance  course for students beginning their studies in September 2024. Should this change, applicants and students will be contacted by the university with details of the costs.\n\nFor information on the scholarships available to you, please see our scholarships page."
-                },
-        "programme_accrediation": [
-                "The Accounting and Finance Division has accreditations from ACCA (Association of Chartered Certified Accountants), CIMA (Chartered Institute of Management Accountants), ICAEW (Institute of Chartered Accountants in England and Wales) and AIA (Association of International Accountants). Representatives from these bodies and visiting speakers from a variety of businesses attend the university regularly. You will be invited and encouraged to attend these useful finance events and engage in the debates.",
-                "Nationwide, MacIntyre Hudson and Mazars are examples of recent visits and are also some of the sponsors who provide prizes at our annual awards ceremony. Local sponsors include Grant Thorntons, Hawsons and Elsby. Elsby is a growing company which will be developing a ‘Young Professionals Networking Platform’ in conjunction with the university in the very near future.",
-                "At the Accounting, Finance and Banking Awards, which were incorporated into our graduation celebrations, £1,000 was given out in prize money to our students. Grant Thorntons, Hawsons Chartered Accountants, McIntyre Hudson and Mazars were amongst the companies sponsoring these awards. Further information about the Accounting, Finance and Banking Awards can be found on our News section of the website."
-        ],
-        "student_perks":[
-            "At the University of Northampton, everything we do, from funded trips to paid internships, is to give you everything you need to make a difference when you leave.",
-            "If you join our full-time BSc Accounting and Finance degree at Northampton, you will receive a laptop when your course begins*. The laptops are built to a bespoke custom specification ideal for use in the seminar room, collaborative group work or studying at home.",
-            "Whatever your ambitions, we’re here to help you to achieve them. We’ll support you to identify the skills you’re learning during your accounting and finance course, find your strengths and secure practical experience so that when it comes to applying for jobs or further study you’ll feel confident in standing out from the crowd. We’ve created the Northampton Employment Promise because we are so confident that if you focus on your studies and complete one of our awards you’ll be highly employable by the time you graduate. Putting you in a great position to secure employment or continue your studies.",
-            "To check out the full list of perks, visit our Student Perks page or dedicated International Perks page.\n\n*UK fee payers only (see Terms and Conditions for further details)."    
-            ]
+                }
         },
         "staff":[
             "https://www.northampton.ac.uk/directories/people/elizabeth-vokes/",
@@ -580,7 +367,9 @@
         "relatedCourses":{
             "Finance BSc (Hons)":"https://www.northampton.ac.uk/courses/finance-bsc-hons/",
             "Economics BSc (Hons)":"https://www.northampton.ac.uk/courses/economics-bsc-hons/" 
-            }   
+            },
+        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/accounting_finance_bsc.png"
+       
         },
         {
      "title": "Fashion Marketing & Promotion BA (Hons)",
@@ -596,161 +385,40 @@
         ],
         "course_content":{ 
             "course_details": {
-            "info":"This fashion marketing degree is jointly delivered by experts in fashion, marketing, photography, digital communications and specialist software. Academics are from both the Faculty of Business and Law and the Faculty of Arts, Science and Technology dependent on the specifics of the module being taught.",
-            "flexibility":"You may start your degree without a fixed idea of the career path you wish to follow. This fashion marketing course is designed to provide lots of exposure to the hugely varied and exciting career options within the fashion industry then assist you to become ‘work ready’ and experienced enough to effectively launch your career upon graduation.\n\nThe specialist routes enable you to make more informed career choices as you progress through the course.\n\nYou will study a combination of modules dependent on your desired career destination. The programme has a core of activity with optional pathways towards either a more business, marketing-based career or more visual fashion promotions and communications route. Personal Tutors from both fashion and marketing expertise will work with you to assist in deciding on the desired route and specialism for your second and third year.",
-            "placement_year":"You are encouraged to undertake a year-long placement in between Stages Two and Three of study. If you meet the entry criteria, and choose to take up a placement year you will find it an invaluable experience that helps you to apply your learning in your final year and prepares you for your career. We offer a lot of support in helping you to find a placement, which can be in the UK or overseas.",
-            "modules":{
-                    "description":[
-                        "Please note the modules shown here relate to the academic year 24/25. The modules relating to the academic year 25/26 will be available from June 2025."
-                    ],
-                    "stage_1":[
+                "modules":{
                     
-                    {
-                        "name":"Styling and Digital Fashion",
-                        "credits":"40 ",
-                        "code":"FSH1117",
-                        "status":"Compulsory" },
-                    {
-                        "name":"Design Communication",
-                        "credits":"",
-                        "code":"FSH1118",
-                        "status":"Compulsory" },
-                    {
-                        "name":"Foundations of Marketing",
-                        "credits":"20",
-                        "code":"MKT1001",
-                        "status":"Compulsory" },
-                    {
-                        "name":"Brand Stories and Consumer Behaviour ",
-                        "credits":"20",
-                        "code":"MKT1044",
-                        "status":"Compulsory"},
-                    {
-                        "name":"Photography for Fashion",
-                        "credits":"20",
-                        "code":"PHO1011",
-                        "status":"Compulsory" }
-                    ],
-                    "stage_2":[
-                    {
-                        "name":"Fashion Event ",
-                        "credits":"20",
-                        "code":"FSH2120",
-                        "status":"Compulsory" },
-                    {
-                        "name": "Client Conceptual Experience",
-                        "credits": "20",
-                        "code": "FSH2122",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Client Brand Resolution",
-                        "credits": "20",
-                        "code": "FSH2123",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Brand Management",
-                        "credits": "20",
-                        "code": "MKT2006",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Public Relations Management and Practice",
-                        "credits": "20",
-                        "code": "MKT2012",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Drivers of Innovation in Fashion",
-                        "credits": "20",
-                        "code": "MKT2056",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Fashion Buying, Merchandising and VM",
-                        "credits": "20",
-                        "code": "MKT2057",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Fashion Marketing and Promotion in Practice",
-                        "credits": "20",
-                        "code": "MKT2058",
-                        "status": "Compulsory"
-                    },
-                    {
-                        "name": "Advanced Fashion Imagery",
-                        "credits": "20",
-                        "code": "PHO2017",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Commercial Campaign",
-                        "credits": "20",
-                        "code": "PHO2019",
-                        "status": "Designate"
-                    }
-                    ],
-                    "stage_3":[
-   
-                    {
-                        "name": "Advanced Design Communication",
-                        "credits": "20",
-                        "code": "FSH3112",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Visual Promotion",
-                        "credits": "20",
-                        "code": "FSH3113",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Professional Promotional Website",
-                        "credits": "40",
-                        "code": "FSH3116",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Creative Fashion Futures",
-                        "credits": "20",
-                        "code": "FSH3117",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Campaign Planning",
-                        "credits": "20",
-                        "code": "MKT3014",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Content Creation for Marketing",
-                        "credits": "20",
-                        "code": "MKT3046",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Entrepreneurial Skills and Freelancing",
-                        "credits": "20",
-                        "code": "MKT3052",
-                        "status": "Compulsory"
-                    },
-                    {
-                        "name": "Marketing Concept Research",
-                        "credits": "20",
-                        "code": "MKT3062",
-                        "status": "Designate"
-                    },
-                    {
-                        "name": "Concept Development and Realisation",
-                        "credits": "40",
-                        "code": "MKT3063",
-                        "status": "Designate"
-                    }
-                ],
-                    "more_details":"Modules are taught using our innovative ‘Active Blended Learning’. This approach is student centred with an emphasis on problem-based learning and enquiry. Varied activities within our fashion marketing course include conducting primary research, study trips in the UK and abroad, industry guest speakers, live client projects, working in teams, adobe creative suite training, technical training on specialist equipment, Cad software training and staging live events."
-            }},
+                        "stage_1":[
+                            "Styling and Digital Fashion (FSH1117) - Compulsory",
+                            "Design Communication (FSH1118) - Compulsory",
+                            "Foundations of Marketing (MKT1001) - Compulsory",
+                            "Brand Stories and Consumer Behaviour (MKT1044) - Compulsory",
+                            "Photography for Fashion (PHO1011) - Compulsory"
+                        ],
+                        "stage_2":[
+                            "Fashion Event (FSH2120) - Compulsory",
+                            "Client Conceptual Experience (FSH2122) - Designate",
+                            "Client Brand Resolution (FSH2123) - Designate",
+                            "Brand Management (MKT2006) - Designate",
+                            "Public Relations Management and Practice (MKT2012) - Designate",
+                            "Drivers of Innovation in Fashion (MKT2056) - Designate",
+                            "Fashion Buying, Merchandising and VM (MKT2057) - Designate",
+                            "Fashion Marketing and Promotion in Practice (MKT2058) - Compulsory",
+                            "Advanced Fashion Imagery (PHO2017) - Designate",
+                            "Commercial Campaign (PHO2019) - Designate"
+                        ],
+                        "stage_3":[   
+                            "Advanced Design Communication (FSH3112) - Designate",
+                            "Visual Promotion (FSH3113) - Designate",
+                            "Professional Promotional Website (FSH3116) - Designate",
+                            "Creative Fashion Futures (FSH3117) - Designate",
+                            "Campaign Planning (MKT3014) - Designate",
+                            "Content Creation for Marketing (MKT3046) - Designate",
+                            "Entrepreneurial Skills and Freelancing (MKT3052) - Compulsory",
+                            "Marketing Concept Research (MKT3062) - Designate",
+                            "Concept Development and Realisation (MKT3063) - Designate"
+                        ]
+                }
+            },
             "entry_requirements": [
                 "A typical offer for Fashion Marketing and Promotion would be:\n\nBCC at A Level or\nDDM at BTEC/Cambridge Technical or\nPass (C or above) at T Level.\nWe welcome applications from students with a mix of A Levels and BTEC/Cambridge Technical qualifications.",
                 "For information on how to apply to study with us, please see our How to Apply page.",
@@ -768,22 +436,7 @@
                     "International Integrated Foundation Year":"£15,200 for the foundation year; thereafter standard fees apply",
                     "Optional Work Placement Year":"£1,200"
                     }
-                },
-        "professional_body": [
-                "CIM Employability Programme Award\nWe are partnered with The Chartered Institute of Marketing (CIM) to map the content of our BA Fashion Marketing & Promotion programme against their unique Professional Employability Criteria – a framework of knowledge, behaviours, and skills required of today’s graduates."
-                ],
-        "student_perks":[
-            "At the University of Northampton, everything we do, from funded trips to paid internships, is to give you everything you need to make a difference when you leave.",
-            "If you join our full-time BA Fashion Marketing and Promotion degree at Northampton, you will receive a laptop when your course begins*. The laptops are built to a bespoke custom specification ideal for use in the seminar room, collaborative group work or studying at home.",
-            "Whatever your ambitions, we’re here to help you to achieve them. We’ll support you to identify the skills you’re learning during your course, find your strengths and secure practical experience so that when it comes to applying for jobs or further study you’ll feel confident in standing out from the crowd. We’ve created the Northampton Employment Promise because we are so confident that if you focus on your studies and complete one of our awards you’ll be highly employable by the time you graduate. Putting you in a great position to secure employment or continue your studies.",
-            "To check out the full list of perks, visit our Student Perks page or dedicated International Perks page.\n\n*UK fee payers only (see Terms and Conditions for further details)."    
-            ],
-        "integrated_foundation_year":[
-            "The Integrated Foundation Year (IFY) offers a new and exciting route into studying for a degree in digital marketing, attracting ambitious and driven students who are willing to learn and advance.",
-            "If you have non-standard qualifications or do not quite meet the admissions requirements for the Fashion Marketing and Promotion degree, we can offer you a fantastic opportunity to study a four year Marketing programme that includes an Integrated Foundation Year. The Integrated Foundation Year will help you develop the theoretical/practical and academic skills you need, in order to successfully progress to the full award.",
-            "Our four-year courses will enable you to successfully follow the degree pathway of your choice while gaining essential study skills. The foundation year of your chosen degree will be studied on a full-time basis and is aimed at supporting the transition to higher education. Years two, three and four are then studied as a standard degree programme.",
-            "Please see our Integrated Foundation Year page for more details."
-            ]
+                }
         },
         "staff":[
             "https://www.northampton.ac.uk/directories/people/caroline-lloyd/",
@@ -797,7 +450,9 @@
             "https://www.northampton.ac.uk/facility/senate/"
         ],
         "relatedCourses":{
-            "Marketing BSc (Hons)":"https://www.northampton.ac.uk/courses/marketing-bsc-hons/" }   
+            "Marketing BSc (Hons)":"https://www.northampton.ac.uk/courses/marketing-bsc-hons/" },
+        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/fashion.png"
+               
         },
         {
      "title": "Advertising and Digital Marketing BA (Hons)",
@@ -813,138 +468,46 @@
         ],
         "course_content":{ 
             "course_details": {
-            "info":"The advertising industry has been transformed by the digital and social media revolution. From start-ups to big businesses, from social enterprises to charities and the public sector, this discipline offers careers in a wide range of industry sectors.\n\nExperiences are at the heart of our advertising degree. As well as regular guest speakers and industry visits, we work on real projects with real marketing budgets. We operate as a marketing department from the first year. Typically, you will be set a brief and then develop and pitch your concept. You will work within brand guidelines, often appointing suppliers, like photographers or design agencies, to deliver your project.\n\nCreative Practical Experiences\n\nEach year we seek out marketing communications projects which give our students interesting practical challenges to work on. This year we have been designing and building Virtual Reality scenarios and working with 360° filming as part of a campaign for the Fire & Rescue Service.\n\nPair of hands lifting a virtual reality headset from a box\n\nAnother campaign saw the students working on a cup recycling campaign with a £70K budget. They collaborated with the hospital, theatre, shopping centre and railway station and our own sustainability team on campus. The initiative won an Investors in the Environment award and is a finalist in the Green Gowns Awards (Student Engagement category). To find out more, check out the story of the Up for the Cup project.\n\nOur final year Advertising & Digital Marketing Degree Students worked alongside the University of Northampton Marketing department for a week. This allowed them to gain valuable hands-on experience. Find out how they got on when they took over the University’s social media platforms in a ‘Student Takeover’, gaining valuable hands-on experience.\n\nDigital_Northampton\n\nAs a digital marketing and advertising student, you have an opportunity to become involved in activities and events organised by Digital Northants, which can help enhance your studies and build connections with employers. Digital Northants is a collaboration between local digital businesses, the University of Northampton and local councils, designed to support the digital innovation in the region.\n\nThe Digital Northampton Podcast is created at the University and is produced and hosted by Ken Punter, Lecturer in Digital Marketing. It covers a range of subjects, primarily focusing on digital marketing and communications. Students can learn more about podcasting and creating digital content when choosing from our wide range of optional modules on offer.\n\nListen to The Digital Northampton Podcast now! You can also find the podcast on Spotify by searching for ‘The Digital Northampton Podcast’.",
-            "modules":{
+                "modules":{
                     "stage_1":[
-                    
-                    {
-                        "name":"Foundations of Marketing",
-                        "credits":"20",
-                        "code":"MKT1001",
-                        "status":"Compulsory" },
-                    {
-                        "name":"Introduction to Marketing Communications",
-                        "credits":"20",
-                        "code":"MKT1002",
-                        "status":"Compulsory" },
-                    {
-                        "name":"Foundations of Advertising Media",
-                        "credits":"20",
-                        "code":"MKT1018",
-                        "status":"Compulsory" },
-                    {
-                        "name":"Digital Marketing Essentials",
-                        "credits":"20",
-                        "code":"MKT1029",
-                        "status":"Compulsory"},
-                    {
-                        "name":"Understanding Consumers",
-                        "credits":"20",
-                        "code":"MKT1030",
-                        "status":"Compulsory" },
-                    {
-                        "name":"Professional Skills for Marketing Practice",
-                        "credits":"20",
-                        "code":"MKT1043",
-                        "status":"Compulsory"
-                    }],
+                        "Foundations of Marketing (MKT1001) - Compulsory",
+                        "Introduction to Marketing Communications (MKT1002) - Compulsory",
+                        "Foundations of Advertising Media (MKT1018) - Compulsory",
+                        "Digital Marketing Essentials (MKT1029) - Compulsory",
+                        "Understanding Consumers (MKT1030) - Compulsory",
+                        "Professional Skills for Marketing Practice (MKT1043) - Compulsory"
+                    ],
                     "stage_2":[
-                            {
-                          "name": "Brand Management",
-                          "credits": "20",
-                          "code": "MKT2006",
-                          "status": "Designate"
-                      },
-                            {
-                          "name": "E-Marketing",
-                          "credits": "20",
-                          "code": "MKT2009",
-                          "status": "Compulsory"
-                      },
-                            {
-                          "name": "Integrated Marketing Communications",
-                          "credits": "20",
-                          "code": "MKT2011",
-                          "status": "Compulsory"
-                    },
-                            {
-                        "name": "Public Relations Management and Practice",
-                        "credits": "20",
-                        "code": "MKT2012",
-                        "status": "Designate"
-                    },
-                            {
-                        "name": "Professional Practice for the Creative Industries",
-                        "credits": "20",
-                        "code": "MKT2020",
-                          "status": "Compulsory"
-                    },
-                            {
-                        "name": "Managing the Communications Process",
-                        "credits": "20",
-                        "code": "MKT2050",
-                        "status": "Compulsory"
-                    },
-                            {
-                        "name": "Marketing Research and Insight",
-                        "credits": "20",
-                        "code": "MKT2059",
-                        "status": "Compulsory"
-                    }  
+                        "Brand Management (MKT2006) - Designate",
+                        "E-Marketing (MKT2009) - Compulsory",
+                        "Integrated Marketing Communications (MKT2011) - Compulsory",
+                        "Public Relations Management and Practice (MKT2012) - Designate",
+                        "Professional Practice for the Creative Industries (MKT2020) - Compulsory",
+                        "Managing the Communications Process (MKT2050) - Compulsory",
+                        "Marketing Research and Insight (MKT2059) - Compulsory"                            
                     ],
-                "stage_3":[
-                    {
-                        "name":"Advertising Consultancy Project",
-                        "credits":"40",
-                        "code":"MKT3036",
-                        "status":"Designate" },
-                    {
-                        "name":"Issues in Advertising Practice",
-                        "credits":"20",
-                        "code":"MKT3037",
-                        "status":"Compulsory" },
-                    {
-                        "name":"Content Creation for Marketing",
-                        "credits":"20",
-                        "code":"MKT3046",
-                        "status":"Designate" },
-                    {
-                        "name":"Digital Entrepreneur",
-                        "credits":"20",
-                        "code":"MKT3049",
-                        "status":"Designate"},
-                    {
-                        "name":"Consumerism and Sustainability",
-                        "credits":"20",
-                        "code":"MKT3051",
-                        "status":"Designate" },
-                    {
-                        "name":"Business-to-Business (B2B) Marketing",
-                        "credits":"20",
-                        "code":"MKT3056",
-                        "status":"Designate"},
-                    {
-                        "name":"Marketing Dissertation",
-                        "credits":"40",
-                        "code":"MKT4001",
-                        "status":"Designate"},
-                    {
-                        "name":"Research Project",
-                        "credits":"20",
-                        "code":"MKT4002",
-                        "status":"Designate"}
-                    ],
-                    "more_details":"What you will learn\nIn addition to providing great learning experiences, our Digital Marketing and Advertising Degree examines the fundamental areas of thought leadership in advertising and marketing communication. A good grounding in branding, public relations and a degree in digital marketing will underpin your future career.\n\nYou will study all the elements of marketing communications. This includes interactive and e-marketing, sales promotion, marketing research and sponsorship. You will learn about the theory and practice of the tools. You’ll obtain the skills required to work in the industry, on both the client and the agency side. Creativity is of critical importance to communications, and you are taught an appreciation of creativity. This will enable you to recognise good work, and also techniques to develop your own creative skill set.\n\nAdvertising, particularly when executed via digital media channels is more measurable than ever before. The availability of what the industry calls ‘big data’ to analyse what we consume, see, buy, think, like and believe means that research metrics will inform every marketing campaign. You will also develop the skills to work with customer insight information and artificial intelligence tools during this advertising and digital marketing degree."
-            }},
+                    "stage_3":[
+                        "Advertising Consultancy Project (MKT3036) - Designate",
+                        "Issues in Advertising Practice (MKT3037) - Compulsory",
+                        "Content Creation for Marketing (MKT3046) - Designate",
+                        "Digital Entrepreneur (MKT3049) - Designate",
+                        "Consumerism and Sustainability (MKT3051) - Designate",
+                        "Business-to-Business (B2B) Marketing (MKT3056) - Designate",
+                        "Marketing Dissertation (MKT4001) - Designate",
+                        "Research Project (MKT4002) - Designate"      
+                    ]
+                }           
+            },
+    
             "entry_requirements": [
-            "A typical offer for Advertising and Digital Marketing would be:\n\nBCC at A Level or\nDDM at BTEC/Cambridge Technical or\nPass (C or above) at T level.\nWe welcome applications from students with a mix of A levels and BTEC/Cambridge Technical qualifications.",
-            "For information on how to apply to study with us, please see our How to Apply page.",
-            "Integrated Foundation Year Entry Requirements\nA typical offer for the Integrated Foundation Year would be:\n\nDEE at A level or\nMPP at BTEC/Cambridge Technical or\nPass (D or E) at T Level.\nWe welcome applications from students with a mix of A levels and BTEC/Cambridge Technical qualifications.",
-            "For more information on how to make an application please visit our How to Apply pages for Home and EU, and International students.",
-            "English Language Requirements\nAll International and EU students applying for a course with us must meet the following minimum English language requirements:\n\nIELTS 6.0 (or equivalent) with a minimum of 5.5 in all bands for study at undergraduate level.\nFor information regarding English language requirements at the University, please see our IELTS page."
+                "A typical offer for Advertising and Digital Marketing would be:\n\nBCC at A Level or\nDDM at BTEC/Cambridge Technical or\nPass (C or above) at T level.\nWe welcome applications from students with a mix of A levels and BTEC/Cambridge Technical qualifications.",
+                "For information on how to apply to study with us, please see our How to Apply page.",
+                "Integrated Foundation Year Entry Requirements\nA typical offer for the Integrated Foundation Year would be:\n\nDEE at A level or\nMPP at BTEC/Cambridge Technical or\nPass (D or E) at T Level.\nWe welcome applications from students with a mix of A levels and BTEC/Cambridge Technical qualifications.",
+                "For more information on how to make an application please visit our How to Apply pages for Home and EU, and International students.",
+                "English Language Requirements\nAll International and EU students applying for a course with us must meet the following minimum English language requirements:\n\nIELTS 6.0 (or equivalent) with a minimum of 5.5 in all bands for study at undergraduate level.\nFor information regarding English language requirements at the University, please see our IELTS page."
             ],
-            "fees_funding": {
-                "2024_2025":{
+                "fees_funding": {
+                    "2024_2025":{
                     "desc":"Fees quoted relate to study in the Academic Year 24/25 only and may be subject to inflationary increases in future years.",
                     "UK_Full_Time":"£9,250",
                     "UK_Part_Time":"£1,540 per 20 credit module",
@@ -953,28 +516,7 @@
                     "International Integrated Foundation Year":"£15,200 for the foundation year; thereafter standard fees apply",
                     "Optional Work Placement Year":"£1,200"
                     }
-                },
-        "professional_body": [
-                "Our Digital Marketing & Advertising degree has gained accreditation from the Digital Marketing Institute. This means that as well as your degree in digital marketing, you will now be awarded an Associate level Certification from the DMI based on UON assessments (no extra tests).",
-                "You will also become a DMI Power Member for the last two years. This gives you access to over 1200 pieces of unique content including videos, tools, webinars and templates. These are created and curated by some of the world’s leading subject matter experts. If you plan to study for a Digital Marketing degree with us, you have the added benefit of knowing that your course has been approved by an internationally recognised global certification provider. DMI certification is recognised by the world’s leading employers and will help you get the job you want.",
-                "Adobe Creative Cloud\n\nIf you plan to take your career in a Content Creation route, our research shows that Adobe tools such as Photoshop and Illustrator can be both helpful and a requirement for some roles. We make this software available for students on this course, and you will have plenty of opportunities to use them if you wish."
-        ],
-        "student_perks":[
-            "At the University of Northampton, everything we do, from funded trips to paid internships, is to give you everything you need to make a difference when you leave.",
-            "If you join our full-time BA Advertising and Digital Marketing degree at Northampton, you will receive a laptop when your course begins*. The laptops are built to a bespoke custom specification ideal for use in the seminar room, collaborative group work or studying at home.",
-            "Whatever your ambitions, we’re here to help you to achieve them. We’ll support you to identify the skills you’re learning during your course, find your strengths and secure practical experience so that when it comes to applying for jobs or further study you’ll feel confident in standing out from the crowd. We’ve created the Northampton Employment Promise because we are so confident that if you focus on your studies and complete one of our awards you’ll be highly employable by the time you graduate. Putting you in a great position to secure employment or continue your studies.",
-            "To check out the full list of perks, visit our Student Perks page or dedicated International Perks page.\n\n*UK fee payers only (see Terms and Conditions for further details)."    
-            ],
-        "integrated_foundation_year":[
-            "The Integrated Foundation Year (IFY) offers a new and exciting route into studying for a degree in digital marketing, attracting ambitious and driven students who are willing to learn and advance.",
-            "If you have non-standard qualifications or do not quite meet the admissions requirements for the Advertising and Digital Marketing degree, we can offer you a fantastic opportunity to study a four year Marketing programme that includes an Integrated Foundation Year. The Integrated Foundation Year will help you develop the theoretical/practical and academic skills you need, in order to successfully progress to the full award.",
-            "Our four-year courses will enable you to successfully follow the degree pathway of your choice while gaining essential study skills. The foundation year of your chosen degree will be studied on a full-time basis and is aimed at supporting the transition to higher education. Years two, three and four are then studied as a standard degree programme.",
-            "Please see our Integrated Foundation Year page for more details."
-            ],
-        "optional_work_placement_year":[
-            "You are encouraged to undertake a year-long placement in between Stages Two and Three of study for the advertising and digital marketing course. If you meet the entry criteria, and choose to take up a placement year you will find it an invaluable experience. It will help you to apply your learning in your final year and prepares you for your career. We offer a lot of support in helping you to find a placement, which can be in the UK or overseas."    
-            ]
-        },
+                }},
         "staff":[
             "https://www.northampton.ac.uk/directories/people/kardi-somerfield/",
             "https://www.northampton.ac.uk/directories/people/christiana-stephen/",
@@ -994,7 +536,8 @@
         ],
         "relatedCourses":{
             "Fashion Marketing and Promotion BA(Hons)":"https://www.northampton.ac.uk/courses/fashion-marketing-and-promotion-ba-hons/",
-            "Marketing BSc (Hons)":"https://www.northampton.ac.uk/courses/marketing-bsc-hons/" }   
+            "Marketing BSc (Hons)":"https://www.northampton.ac.uk/courses/marketing-bsc-hons/" },
+        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/advertisinf_digital_marketing.png"        
         },
         {
      "title": "Computer Science BSc (Hons)",
@@ -1011,117 +554,33 @@
         ],
         "course_content":{ 
             "course_details": {
-            "info":"Our Computer Science BSc (Hons) degree gives you the opportunity to explore different ideas and develop innovative solutions to current issues in the computing industry. This three-year Computer Science degree will give you an insight into the computing industry, investigating the wide-reaching influences that computers and computing technology have on the world. Studying this course will also contribute towards helping you find your ideal path for a career in Computing.\n\nNetworking Opportunities\n\nYou will have the opportunity to attend seminars, workshops and conferences with guest speakers and presenters from the local, national and international industries. This is a great opportunity for the students to meet and work with colleagues from different year groups but also with professionals with several years experience in the industry.\n\nYear 1\n\nDuring the first year of this computer science degree, you will study common computer science modules such as Computer Systems, Software Engineering Fundamentals, Mathematics for Computer Science, Web Development, Problem Solving & Programming. These will help you build a foundation for more advanced topics in subsequent years.\n\nYear2\n\nIn the second year, you will continue your journey with the core computer science modules such as Data Structures and Algorithms, Operating Systems, Object-oriented programming, Web development,  Relational Databases, etc. There will also be a group project where you will be a part of a small team to design and implement a solution of decent quality for a given task. This will help you develop not only technical skills but also key soft skills such as teamwork, effective communication, leadership, etc.\n\nYear 3\n\nIn the final year of this computer science degree, you will further enhance your Computer Science knowledge/skills by doing high-level modules such as Advanced AI and Applications, Modern Databases, Cyber Security and Applied Cryptography, and Media Technology. You are also expected to complete an independent dissertation on a topic of your choice in the field of Computer Science (with some guidance from an assigned supervisor). This benchmarking module will allow you to showcase your overall knowledge/skills learnt from the course.\n\nPlease note the modules shown here relate to the academic year 24/25. The modules relating to the academic year 25/26 will be available from June 2025.",
-            "modules":{
+                "modules":{
                     "stage_1":[
-                    {
-                        "name": "Problem Solving and Programming",
-                        "credits": "20",
-                        "code": "CSY1020",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Mathematics for Computer Science",
-                        "credits": "20",
-                        "code": "CSY1060",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Computer Systems",
-                        "credits": "20",
-                        "code": "CSY1061",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Computer Communications",
-                        "credits": "20",
-                        "code": "CSY1062",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Web Development",
-                        "credits": "20",
-                        "code": "CSY1063",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Software Engineering Fundamentals",
-                        "credits": "20",
-                        "code": "CSY1064",
-                        "status": "Compulsory"
-                         }                    
+                        "Problem Solving and Programming (CSY1020) - Compulsory",
+                        "Mathematics for Computer Science (CSY1060) - Compulsory",
+                        "Computer Systems (CSY1061) - Compulsory",
+                        "Computer Communications (CSY1062) - Compulsory",
+                        "Web Development (CSY1063) - Compulsory",
+                        "Software Engineering Fundamentals (CSY1064) - Compulsory"                    
                     ],
                     "stage_2":[
-                            {
-                        "name": "Relational Databases",
-                        "credits": "20",
-                        "code": "CSY2080",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Data Structures and Algorithms",
-                        "credits": "20",
-                        "code": "CSY2087",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Group Project",
-                        "credits": "20",
-                        "code": "CSY2088",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Web Programming",
-                        "credits": "20",
-                        "code": "CSY2089",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Operating Systems",
-                        "credits": "20",
-                        "code": "CSY2092",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Systems Design and Development",
-                        "credits": "20",
-                        "code": "CSY2094",
-                        "status": "Compulsory"
-                        }
+                        "Relational Databases (CSY2080) - Compulsory",
+                        "Data Structures and Algorithms (CSY2087) - Compulsory",
+                        "Group Project (CSY2088) - Compulsory",
+                        "Web Programming (CSY2089) - Compulsory",
+                        "Operating Systems (CSY2092) - Compulsory",
+                        "Systems Design and Development (CSY2094) - Compulsory"  
                     ],
                     "stage_3":[
-                      {
-                        "name": "Media Technology",
-                        "credits": "20",
-                        "code": "CSY3058",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Modern Databases",
-                        "credits": "20",
-                        "code": "CSY3059",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Advanced AI and Applications",
-                        "credits": "20",
-                        "code": "CSY3060",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Cybersecurity and Applied Cryptography",
-                        "credits": "20",
-                        "code": "CSY3062",
-                        "status": "Compulsory"
-                        },
-                    {
-                        "name": "Computing Project Dissertation",
-                        "credits": "40",
-                        "code": "CSY4022",
-                        "status": "Compulsory"
-                        }    
-                    
-                ]}},
+                        "Media Technology (CSY3058) - Compulsory",
+                        "Modern Databases (CSY3059) - Compulsory",
+                        "Advanced AI and Applications (CSY3060) - Compulsory",
+                        "Cybersecurity and Applied Cryptography (CSY3062) - Compulsory",
+                        "Computing Project Dissertation (CSY4022) - Compulsory"
+
+                    ]
+                }
+            },
             "entry_requirements": [
                 "A typical offer could be:\n\nBCC at A-Level or,\nDMM at BTEC or,\nPass (C or above) at T Level\n\nApplicants will be expected to have achieved GCSE Mathematics (or equivalent) at grade C/4 or above. We welcome international applicants and applications from students with a range of non-traditional educational or professional qualifications.",
                 "For information on how to apply to study with us, please see our How to Apply page.",
@@ -1137,18 +596,7 @@
                     "International_Full_Time":"£15,200",
                     "International Integrated Foundation Year":"£15,200"
                     }
-                },
-        "student_perks":[
-            "At the University of Northampton, everything we do, from funded trips to paid internships, is to give you everything you need to make a difference when you leave.",
-            "If you join this full time Computer Science degree at Northampton, you will receive a laptop when your course begins*. The laptops are built to a bespoke custom specification ideal for use in the seminar room, collaborative group work or studying at home.",
-            "Whatever your ambitions, we’re here to help you to achieve them. We’ll support you to identify the skills you’re learning during your course, find your strengths and secure practical experience so that when it comes to applying for jobs or further study, you’ll feel confident in standing out from the crowd. We’ve created the Northampton Employment Promise because we are so confident that if you focus on your studies and complete one of our awards you’ll be highly employable by the time you graduate. Putting you in a great position to secure employment or continue your studies.",
-            "To check out the full list of perks, visit our Student Perks page or dedicated International Perks page.\n\n*UK fee payers only (see Terms and Conditions for further details)."    
-            ],
-        "integrated_foundation_year":[
-            "The Integrated Foundation Year (IFY) offers a new and exciting route into studying for a degree in digital marketing, attracting ambitious and driven students who are willing to learn and advance.",
-            "If you have non-standard qualifications or do not quite meet the admissions requirements for the Advertising and Digital Marketing degree, we can offer you a fantastic opportunity to study a four year Marketing programme that includes an Integrated Foundation Year. The Integrated Foundation Year will help you develop the theoretical/practical and academic skills you need, in order to successfully progress to the full award.",
-            "Our four-year courses will enable you to successfully follow the degree pathway of your choice while gaining essential study skills. The foundation year of your chosen degree will be studied on a full-time basis and is aimed at supporting the transition to higher education. Years two, three and four are then studied as a standard degree programme."
-            ]
+                }
         },
         "staff":[
             "https://www.northampton.ac.uk/directories/people/james-xue/",
@@ -1166,7 +614,8 @@
             "Computing (Software Engineering) Msc":"https://www.northampton.ac.uk/courses/computing-software-engineering-msc/",
             "Computing (Internet Technology and Security) Msc":"https://www.northampton.ac.uk/courses/computing-internet-technology-and-security-msc/",
             "Computing (Computer Networks Engineering) Msc":"https://www.northampton.ac.uk/courses/computing-computer-networks-engineering-msc/"    
-            }   
+            },
+            "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/computer_science.png"       
         },
         {
      "title": "Psychology BSc (Hons)",
@@ -1187,175 +636,39 @@
         ],
         "course_content":{ 
             "course_details": {
-            "info":"Our BSc Psychology course has been designed to contribute towards achieving the following United Nations Sustainable Development Goal: SDG3 Good Health and Wellbeing.\n\nDuring your second and third year of BSc Psychology, you will have opportunities to choose from a range of specialist optional modules. Your choices will allow you to explore your developing interests in greater depth. The inclusion of an optional placement year also offers you the chance to experience the world of work, allowing you to apply your learning to the real world.  Throughout the programme, you will be taught theory alongside practical elements which will be relevant and applicable to a wide range of careers that psychology graduates can pursue.During your second and third year of BSc Psychology, you will have opportunities to choose from a range of specialist optional modules. Your choices will allow you to explore your developing interests in greater depth. The inclusion of an optional placement year also offers you the chance to experience the world of work, allowing you to apply your learning to the real world.  Throughout the programme, you will be taught theory alongside practical elements which will be relevant and applicable to a wide range of careers that psychology graduates can pursue.\n\nDuring your second and third year of BSc Psychology, you will have opportunities to choose from a range of specialist optional modules. Your choices will allow you to explore your developing interests in greater depth. The inclusion of an optional placement year also offers you the chance to experience the world of work, allowing you to apply your learning to the real world.  Throughout the programme, you will be taught theory alongside practical elements which will be relevant and applicable to a wide range of careers that psychology graduates can pursue.\n\nYou will join a thriving learning community and be taught by a large, diverse and supportive group of research active professionals who are recognised experts in their field. Our psychology degree tutors are passionate about the role psychology plays in all areas of life. They are motivated to inspire future generations who want to make a difference to society.\n\nWhile studying for your bachelor’s in psychology, you will learn new ways of understanding how and why people think and act as they do. This course will also equip you with transferable critical and analytical skills that will enhance your employability. Studying Psychology offers you considerable flexibility and choice within a supportive environment, through teaching staff and your personal academic tutor. Roxana Teleanu shares the five life lessons she learnt as a student at the University of Northampton.\n\nAt the University of Northampton, you will benefit from studying applied Psychology modules, providing valuable work-based learning skills and links to Changemaker. You will have access to excellent facilities and resources for research. Research areas include social, cognitive, biological, developmental and personality psychology.\n\nOur single honours psychology degree course allows you to understand and analyse human behaviour, thought and emotions, from many different psychological perspectives. The course provides you with useful experience, especially if you are intending to work in a range of career areas both in and outside of psychology. This experience can be applied to educational psychology, clinical psychology, teaching and research.\n\nBSc Psychology at UON can be taken as a full time or part time psychology degree. If you are studying this course full-time you will take 120 credits worth of modules for each stage for three years. Some modules are mandatory whilst others are selected from a range of options. In stage one important core ideas, evidence and methods are introduced. This basic knowledge is built upon in stages two and three to foster an advanced understanding of topics.\n\nListed below are some of the key tests you can administer within our psychometrics library:\n\nIntelligence scales: Weschler Adult Intelligence Scale, Weschler Intelligence Scale for Children, and the Weschler Abbreviated Intelligence Scale x 2, Personality measures: NEO Five Factor Inventory & PI-R, Eysenck Personality Scales, Myers-Briggs Type Indicator and Cattell’s 16PF Form (A&B), Health Psychology Portfolio, Mental Health Portfolio, Measures of Children’s Mental Health & Psychological Well-Being, Child Behaviour Checklist, Torrance Tests of Creative Thinking – Verbal/Figural, Rorschach test, Witkin’s Group Embedded Figures test.\n\nBritish Psychological Society (BPS) accreditation\n\nUpon completion of your BSc degree in psychology (with an overall classification of a 2:2 or above), you are eligible for Graduate Basis for Chartered Membership (GBC) to the BPS. Acquiring your GBC has a host of benefits for a future career in Psychology. The accredited Psychology degrees at UON mean that you could move into Postgraduate Study in a number of areas in Psychology and beyond, without needing to do a further Psychology Conversion course to obtain GBC status.\n\nGraduate Basis for Chartered (GBC) Membership is considered as the starting point to your career in psychology. Obtaining GBC encompasses many benefits, including access to journals, conferences, and events. You will have the opportunity to enhance your employability through volunteering opportunities and research placements, as well as through the courses focus on analysing human behaviour from many psychological perspectives.\n\nPlease note the modules shown here relate to the academic year 24/25. The modules relating to the academic year 25/26 will be available from June 2025.",
-            "modules":{                    
+                "modules":{                    
                     "stage_1":[
-                        {
-                    "name": "Psychology in Practice",
-                    "credits": "20",
-                    "code": "PSY1001",
-                    "status": "Compulsory"
-                },
-                        {
-                    "name": "Introduction to Psychology",
-                    "credits": "20",
-                    "code": "PSY1003",
-                    "status": "Compulsory"
-                },
-                        {
-                    "name": "Investigating Psychology",
-                    "credits": "20",
-                    "code": "PSY1004",
-                    "status": "Compulsory"
-                },
-                        {
-                    "name": "Becoming a Psychologist",
-                    "credits": "20",
-                    "code": "PSY1006",
-                    "status": "Compulsory"
-                },
-                        {
-                    "name": "Positive Psychology",
-                    "credits": "20",
-                    "code": "PSY1011",
-                    "status": "Compulsory"
-                },
-                        {
-                    "name": "Psychology for Life",
-                    "credits": "20",
-                    "code": "PSY1012",
-                    "status": "Compulsory"
-                }                 
+                        "Psychology in Practice (PSY1001) - Compulsory",
+                        "Introduction to Psychology (PSY1003) - Compulsory",
+                        "Investigating Psychology (PSY1004) - Compulsory",
+                        "Becoming a Psychologist (PSY1006) - Compulsory",
+                        "Positive Psychology (PSY1011) - Compulsory",
+                        "Psychology for Life (PSY1012) - Compulsory"              
                     ],
                     "stage_2":[
-                    {
-                    "name": "Independent Practical Work",
-                    "credits": "20",
-                    "code": "PSY2003",
-                    "status": "Compulsory"
-                },
-                    {
-                    "name": "Research Methods and Statistics",
-                    "credits": "20",
-                    "code": "PSY2005",
-                    "status": "Compulsory"
-                },
-                    {
-                    "name": "The Human Animal",
-                    "credits": "20",
-                    "code": "PSY2006",
-                    "status": "Designate"
-                },
-                    {
-                    "name": "The Psychology of Well-being",
-                    "credits": "20",
-                    "code": "PSY2007",
-                    "status": "Designate"
-                },
-                    {
-                    "name": "The Psychology of Learning and Teaching in Educational Settings",
-                    "credits": "20",
-                    "code": "PSY2025",
-                    "status": "Designate"
-                },
-                    {
-                    "name": "Biological and Cognitive Psychology: Mechanisms of the Mind",
-                    "credits": "20",
-                    "code": "PSY2029",
-                    "status": "Designate"
-                },
-                    {
-                    "name": "Development and Society",
-                    "credits": "20",
-                    "code": "PSY2030",
-                    "status": "Compulsory"
-                },
-                    {
-                    "name": "Personality & the Fundamentals of Psychology",
-                    "credits": "20",
-                    "code": "PSY2031",
-                    "status": "Compulsory"
-                } 
+                        "Independent Practical Work (PSY2003) - Compulsory",
+                        "Research Methods and Statistics (PSY2005) - Compulsory",
+                        "The Human Animal (PSY2006) - Designate",
+                        "The Psychology of Well-being (PSY2007) - Designate",
+                        "The Psychology of Learning and Teaching in Educational Settings (PSY2025) - Designate",
+                        "Biological and Cognitive Psychology: Mechanisms of the Mind (PSY2029) - Designate",
+                        "Development and Society (PSY2030) - Compulsory",
+                        "Personality & the Fundamentals of Psychology (PSY2031) - Compulsory" 
                     ],
                     "stage_3":[
-                      {
-                      "name": "Psychology of Mental Health",
-                      "credits": "20",
-                      "code": "PSY3004",
-                      "status": "Designate"
-                  },
-                      {
-                      "name": "Parapsychology and Anomalous Experiences",
-                      "credits": "20",
-                      "code": "PSY3007",
-                      "status": "Designate"
-                  },
-                      {
-                      "name": "The Psychology of Health",
-                      "credits": "20",
-                      "code": "PSY3013",
-                      "status": "Designate"
-                  },
-                      {
-                      "name": "Forensic Psychology",
-                      "credits": "20",
-                      "code": "PSY3016",
-                      "status": "Designate"
-                  },
-                      {
-                      "name": "Educational Psychology",
-                      "credits": "20",
-                      "code": "PSY3023",
-                      "status": "Designate"
-                  },
-                      {
-                      "name": "Understanding the Social World",
-                      "credits": "20",
-                      "code": "PSY3024",
-                      "status": "Designate"
-                  },
-                      {
-                      "name": "Psychology of Spirituality, Religion and Wellbeing",
-                      "credits": "20",
-                      "code": "PSY3027",
-                      "status": "Designate"
-                  },
-                      {
-                      "name": "Lifespan Development",
-                      "credits": "20",
-                      "code": "PSY3053",
-                      "status": "Designate"
-                  },
-                      {
-                      "name": "Neuroscience of Mind",
-                      "credits": "20",
-                      "code": "PSY3054",
-                      "status": "Designate"
-                  },
-                      {
-                      "name": "Applying Positive Psychology",
-                      "credits": "20",
-                      "code": "PSY3055",
-                      "status": "Designate"
-                  },
-                      {
-                      "name": "The Psychology of Work and Organisations",
-                      "credits": "20",
-                      "code": "PSY3063",
-                      "status": "Designate"
-                  },
-                      {
-                      "name": "Psychology Dissertation",
-                      "credits": "40",
-                      "code": "PSY4001",
-                      "status": "Designate"
-                  },
-                      {
-                      "name": "Psychology Library-Based Dissertation",
-                      "credits": "40",
-                      "code": "PSY4004",
-                      "status": "Designate"
-                  }
+                        "Psychology of Mental Health (PSY3004) - Designate",
+                        "Parapsychology and Anomalous Experiences (PSY3007) - Designate",
+                        "The Psychology of Health (PSY3013) - Designate",
+                        "Forensic Psychology (PSY3016) - Designate",
+                        "Educational Psychology (PSY3023) - Designate",
+                        "Understanding the Social World (PSY3024) - Designate",
+                        "Psychology of Spirituality, Religion and Wellbeing (PSY3027) - Designate",
+                        "Lifespan Development (PSY3053) - Designate",
+                        "Neuroscience of Mind (PSY3054) - Designate",
+                        "Applying Positive Psychology (PSY3055) - Designate",
+                        "The Psychology of Work and Organisations (PSY3063) - Designate",
+                        "Psychology Dissertation (PSY4001) - Designate",
+                        "Psychology Library-Based Dissertation (PSY4004) - Designate"
                     
                 ]}},
             "entry_requirements": [
@@ -1372,18 +685,7 @@
                     "International_Full_Time":"£15,200",
                     "International Integrated Foundation Year":"£15,200"
                     }
-                },
-        "student_perks": [
-            "At the University of Northampton, everything we do, from funded trips to paid internships, is to give you everything you need to make a difference when you leave.",
-            "If you join our full-time BSc Psychology degree at Northampton, you will receive a laptop when your course begins*. The laptops are built to a bespoke custom specification ideal for use in the seminar room, collaborative group work or studying at home.",
-            "Whatever your ambitions, we’re here to help you to achieve them. We’ll support you to identify the skills you’re learning during your course, find your strengths and secure practical experience so that when it comes to applying for jobs or further study you’ll feel confident in standing out from the crowd. We’ve created the Northampton Employment Promise because we are so confident that if you focus on your studies and complete one of our awards you’ll be highly employable by the time you graduate. Putting you in a great position to secure employment or continue your studies.",
-            "To check out the full list of perks, visit our Student Perks page or dedicated International Perks page.\n\n*UK fee payers only (see Terms and Conditions for further details)."
-    ],
-        "integrated_foundation_year":[
-            "The Integrated Foundation Year (IFY) offers a new and exciting route into studying for a degree in BSc psychology, attracting ambitious and driven students who are willing to learn and advance.",
-            "If you have non-standard qualifications or do not quite meet the admissions requirements we can offer you a fantastic opportunity to study a four-year programme that includes an Integrated Foundation Year. The Integrated Foundation Year will help you develop the theoretical/practical and academic skills you need to successfully progress to the full award.",
-            "Our four-year courses will enable you to successfully follow the degree pathway of your choice while gaining essential study skills. The foundation year of your chosen degree will be studied on a full-time basis and is aimed at supporting the transition to higher education. Years two, three and four are then studied as a standard degree programme."
-            ]
+                }
         },
         "staff":[
             "https://www.northampton.ac.uk/directories/people/charlotte-dann/",
@@ -1405,7 +707,8 @@
         "relatedCourses":{
             "Psychology (Counseling) BSc (Hons)":"https://www.northampton.ac.uk/courses/psychology-counselling-bsc-hons/",
             "Criminology with Psychology BA(Hons":"https://www.northampton.ac.uk/courses/criminology-with-psychology-ba-hons/"    
-            }   
+            },
+        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/psychology.png"
         }
     ]
 }

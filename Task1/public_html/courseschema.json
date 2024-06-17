@@ -1,0 +1,342 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+"type":"object",
+"title": "Courses",
+    "properties":{
+        "courses":{
+            "type":"array",
+            "items":{
+               "type":"object",
+                "properties":{
+                    "title":{"type":"string"},
+                    "level":{"type":"string"},
+                    "overview":{"type":"string"},
+                    "highlights":{
+                        "type":"array",
+                        "items":{"type":"string"}
+                        },
+                        "gallery":{
+                            "type":"array",
+                            "items":{"type":"string"}
+                        },
+                        "course_content":{
+                        "type":"object",
+                        "properties":{
+                            "course_details":{
+                            "type":"object",
+                            "properties":{
+                                "info":{"type":"string"},
+                                "industry_placement":{"type":"string"},
+                                "modules":{},
+                                "compulsory modules":{
+                                    "type":"object",
+                                    "properties":{
+                                        "desc":{"type":"string"},
+                                        "research methods":{
+                                        "type":"array",
+                                        "items":{"type":"string"}
+                                        }
+                                    },
+                                    "required":[
+                                        "desc",
+                                        "research methods"
+                                    ]
+                                },
+                                "other modules":{
+                                    "type":"object",
+                                    "properties":{
+                                        "desc":{"type":"string"},
+                                        "subject areas":{
+                                            "type":"array",
+                                            "items":{
+                                                "type":"string"
+                                            }
+                                        },
+                                        "info":{"type":"string"}
+                                    },
+                                    "required":[
+                                        "desc",
+                                        "subject areas",
+                                        "info"
+                                    ]
+                                },
+                                "flexibility":{
+                                    "type":"string"
+                                },
+                                "placement_year":{
+                                    "type":"string"
+                                }
+                            },
+                            "required":[
+                                "info",
+                                "modules"
+                            ]
+                            },
+                        "required":["info","modules"],                        
+                        "entry_rquirements":{
+                            "type":"array",
+                            "items":{"type":"string"}
+                        },
+                        "fees_funding":{
+                            "type":"object",
+                            "properties":{
+                                "2024_2025":{
+                                    "type":"object",
+                                        "properties":{
+                                            "desc":{
+                                            "type":"string"
+                                            },
+                                            "UK_Full_Time":{
+                                                "type":"string"
+                                            },
+                                            "International_Full_Time":{},
+                                            "UK_Part_Time":{
+                                                "type":"string"
+                                            },
+                                            "UK_Postgraduate_Certificate_in_Advanced_Clinical_Practice":{
+                                                "type":"string"
+                                            },
+                                            "UK_Postgraduate_Diploma_in_Advanced_Clinical_Practice":{
+                                                "type":"string"
+                                            },
+                                            "UK_MSc Advanced_Clinical_Practice_(Top_Up)":{
+                                                "type":"string"
+                                            },
+                                            "UK_MSc Advanced_Clinical_Practice_(Full_Award_180_Credits)":{
+                                                "type":"string"
+                                            },
+                                            "UK_MSc_ACP_Degree_Apprenticeship":{
+                                                "type":"string"
+                                            },
+                                            "extra_info":{
+                                                "type":"string"
+                                            },
+                                            "Optional Work Placement Year":{
+                                                "type":"string"
+                                            },
+                                            "UK Integrated Foundation Year":{
+                                                "type":"string"
+                                            },
+                                            "International Integrated Foundation Year":{
+                                                "type":"string"
+                                            }
+                                        },
+                                        "required":[
+                                            "desc",
+                                            "International_Full_Time"
+                                        ]
+                                },
+                                "2023_2024":{
+                                    "type":"object",
+                                    "properties":{
+                                        "desc":{
+                                            "type":"string"
+                                        },
+                                        "UK_Full_Time":{
+                                            "type":"string"
+                                        },
+                                        "International_Full_Time":{},
+                                        "UK_Part_Time":{
+                                            "type":"string"
+                                        },
+                                        "UK_Postgraduate_Certificate_in_Advanced_Clinical_Practice":{
+                                            "type":"string"
+                                        },
+                                        "UK_Postgraduate_Diploma_in_Advanced_Clinical_Practice":{
+                                            "type":"string"
+                                        },
+                                        "UK_MSc_Advanced_Clinical_Practice_(Top_Up)":{
+                                            "type":"string"
+                                        },
+                                        "UK_MSc Advanced_Clinical_Practice_(Full Award_180 Credits)":{
+                                            "type":"string"
+                                        },
+                                        "UK_MSc_ACP_Degree_Apprenticeship":{
+                                            "type":"string"
+                                        },
+                                        "extra_info":{
+                                            "type":"string"
+                                        },
+                                        "Optional Work Placement Year":{
+                                            "type":"string"
+                                        },
+                                        "UK Integrated Foundation Year":{
+                                            "type":"string"
+                                        },
+                                        "International Integrated Foundation Year":{
+                                          "type":"string"
+                                        }                                            
+                                    },
+                                    "required":[
+                                        "desc",
+                                        "International_Full_Time"
+                                    ]
+                                },
+                                "additional_costs":{
+                                    "type":"string"
+                                },
+                                "Postgraduate_Loans":{
+                                    "type":"string"
+                                },
+                                "Scholarships_Bursaries":{
+                                    "type":"string"
+                                }                                    
+                            },
+                            "required": [
+                                "2024_2025",
+                                "2023_2024"
+                            ]
+                        },
+                        "professional_body":{
+                            "type":"array",
+                            "items":{
+                                "type":"string"
+                            }
+                        },
+                        "faqs":{
+                            "type":"array",
+                            "items":{
+                                "type":"string"
+                            }
+                        },
+                        "programme_accrediation":{
+                            "type":"array",
+                            "items":{
+                                "type":"string"
+                            }
+                        },
+                        "student_perks":{
+                            "type":"array",
+                            "items":{
+                                "type":"string"
+                            }
+                        },
+                        "integrated_foundation_year":{
+                            "type":"array",
+                            "items":{
+                                "type":"string"
+                            }
+                        },
+                        "optional_work_placement_year": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "required": [
+                        "course_details",
+                        "entry_requirements",
+                        "fees_funding"
+                    ]
+                },
+                "staff": {
+                    "type":"array",
+                    "items":{
+                        "type":"string"
+                    }
+                },
+                "careers_employability": {
+                    "type":"string"
+                },
+                "facilities": {
+                    "type":"array",
+                        "items":{
+                            "type":"string"
+                        }
+                },
+                "relatedCourses": {
+                    "type":"object",
+                    "properties": {
+                        "Accounting and Finance (Top-Up) MSc": {
+                            "type": "string"
+                        },
+                        "Financial and Investment Analysis MSc": {
+                            "type": "string"
+                        },
+                        "Master of Business Administration – Finance MBA": {
+                            "type": "string"
+                        },
+                        "Advancing Practice MSc": {
+                            "type": "string"
+                        },
+                        "Public Health MSc": {
+                            "type": "string"
+                        },
+                        "Advanced Occupational Therapy MSc": {
+                            "type": "string"
+                        },
+                        "Doctor of Professional Practice in Health and Social Care": {
+                            "type": "string"
+                        },
+                        "Master of Business Administration MBA": {
+                            "type": "string"
+                        },
+                        "Executive Master of Business Administration MBA": {
+                            "type": "string"
+                        },
+                        "Executive Master of Business Administration (Top-Up) MBA": {
+                            "type": "string"
+                        },
+                        "Physiotherapy (pre-registration) MSc": {
+                            "type": "string"
+                        },
+                        "Advanced Clinical Practice MSc": {
+                            "type": "string"
+                        },
+                        "Child and Adolescent Mental Health (CAMH) MSc": {
+                            "type": "string"
+                        },
+                        "Finance BSc (Hons)": {
+                            "type": "string"
+                        },
+                        "Economics BSc (Hons)": {
+                            "type": "string"
+                        },
+                        "Marketing BSc (Hons)": {
+                            "type": "string"
+                        },
+                        "Fashion Marketing and Promotion BA(Hons)": {
+                            "type": "string"
+                        },
+                        "Computing Msc": {
+                            "type": "string"
+                        },
+                        "Computing (Software Engineering) Msc": {
+                            "type": "string"
+                        },
+                        "Computing (Internet Technology and Security) Msc": {
+                            "type": "string"
+                        },
+                        "Computing (Computer Networks Engineering) Msc": {
+                            "type": "string"
+                        },
+                        "Psychology (Counseling) BSc (Hons)": {
+                            "type": "string"
+                        },
+                        "Criminology with Psychology BA(Hons": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [] 
+                },
+                "further_studies":{
+                    "type":"string"
+                }
+            },
+            "required":[
+                "title",
+                "level",
+                "overview",
+                "highlights",
+                "course_content",
+                "staff",
+                "relatedCourses"
+            ]
+        }
+      }
+    },
+    "required":[
+        "courses"
+    ]
+}

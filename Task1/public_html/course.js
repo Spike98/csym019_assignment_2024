@@ -20,9 +20,14 @@ function updateTable(courses){
         const row = document.createElement("tr");
         
         //icons
-        const icon = document.createElement("td");
+        const iconSpace = document.createElement("td");
         const img = document.createElement("img");
         img.src = course.icon;
+        img.alt = course.title + "photo";
+        iconSpace.appendChild(img);
+        row.appendChild(iconSpace);
+        
+        //title
         
     })
     

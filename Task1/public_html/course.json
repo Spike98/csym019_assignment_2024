@@ -9,35 +9,24 @@
             "Some exemptions from professional examinations are available from main professional bodies",
             "Industry Placement Option available on the masters in Accounting and Finance"
         ],
-        "course_content":{ 
-            "course_details":{
-                "modules":{
-                        "stage_1":[
-                            "Corporate Reporting 1(FINM008) - Compulsory",
-                            "Global Financial Strategy(FINM009) - Compulsory",                         
-                            "Financial and Business Strategy(FINM010) - Compulsory",
-                            "Strategic Audit (FINM012) - Compulsory",
-                            "Investment Analysis (FINM014) - Compulsory",
-                            "Corporate Social Responsibility and Governance (FINM024) - Compulsory",
-                            "Dissertation and Research Methods (FINM025) - Compulsory"
-                        ]
-                }
-        },
-            "entry_requirements": [
+        "modules":[
+                    "Corporate Reporting 1(FINM008) - Compulsory",
+                    "Global Financial Strategy(FINM009) - Compulsory",                         
+                    "Financial and Business Strategy(FINM010) - Compulsory",
+                    "Strategic Audit (FINM012) - Compulsory",
+                    "Investment Analysis (FINM014) - Compulsory",
+                    "Corporate Social Responsibility and Governance (FINM024) - Compulsory",
+                    "Dissertation and Research Methods (FINM025) - Compulsory"
+                  ],
+        "entry_requirements": [
                 "If you hold a recognised first or second class honours degree from a UK university or international equivalent in finance, banking, accounting or a related discipline then you will meet our Accounting and Finance Master’s degree entry requirements for this course. If you hold professional qualifications, you will also be considered for entry onto this course.\nFor more information on how to make an application for MSc Accounting and Finance, please visit our How to Apply page.\nIf you are an International student and would like information on making an application, please see our How to Apply page.\n",
                 "English Language Requirements\n\nAll International and EU students applying for a course with us must meet the following minimum English language requirements:\nMinimum standard – IELTS 6.5 (or equivalent) for study at postgraduate level.For information regarding English language requirements at the University, please see our IELTS page."   
         ],
-            "fees_funding": {
-                "2024_2025":{
-                    "desc":"Fees quoted for the Accounting and Finance masters relate to study in the Academic Year 2024/25 only and may be subject to inflationary increases in future years*.",
+        "fees_funding": {
                     "UK_Full_Time":"£8,250",
-                    "International_Full_Time":[
-                        "£16,995",
-                        "Year 2 Placement Fee: £1,000 * (for placements starting in September 2025 or January 2026)"    
-                    ]
-                },
-                "additional_costs":"There are no additional costs for this course for students beginning their studies in September 2024. Should this change, applicants and students will be contacted by the university with details of the costs."
-        }
+                    "International_Full_Time":"£16,995",
+                    "Year_2_Placement_Fee":"£1,000"    
+                
         },
         "staff":[
             "https://www.northampton.ac.uk/directories/people/ahmad-haboub/",
@@ -54,7 +43,7 @@
             "Financial and Investment Analysis MSc":"https://www.northampton.ac.uk/courses/financial-and-investment-analysis-msc/",
             "Master of Business Administration – Finance MBA":"https://www.northampton.ac.uk/courses/master-of-business-administration-finance-mba/"                
         },
-        "icon": "/C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/accounting_finance.png"
+        "icon": "pngs_for_assignment/accounting_finance.png"
             
     },
         {
@@ -67,16 +56,14 @@
             "Inter-professional learning",
             "Professional body recordable prescribing qualification"
         ],
-        "course_content":{ 
-            "course_details": {
-                "modules": [
-                    "Postgraduate Certificate in Clinical Practice",
-                    "Postgraduate Diploma in Advanced Clinical Practice",
-                    "MSc Advanced Clinical Practice Degree Apprenticeship",
-                    "MSc Advanced Clinical Practice",
-                    "MSc Advanced Clinical Practice (Top-Up)"
-            ]},
-            "entry_requirements": [
+        "modules": [
+            "Postgraduate Certificate in Clinical Practice",
+            "Postgraduate Diploma in Advanced Clinical Practice",
+            "MSc Advanced Clinical Practice Degree Apprenticeship",
+            "MSc Advanced Clinical Practice",
+            "MSc Advanced Clinical Practice (Top-Up)"
+            ],
+        "entry_requirements": [
             "Applicants must hold an appropriate healthcare or bachelor’s degree with honours.\nCurrent professional body registration (UK registered).\nEmployment within a relevant health and social care related environment.",
             "Nurses, midwives, allied health professionals and pharmacists with current professional body registrations are encouraged to apply.",
             "Students who do not have a relevant Bachelor degree must satisfy the University that by virtue of their professional standing, qualification and/or training that they are fit to register for, and to benefit them from, their proposed programme of study. Evidence of recent level 6 study is required.",
@@ -84,19 +71,12 @@
             "For further information regarding the award and its associated modules, please contact Laura Elliott, Programme Lead, via advancedpractice@northampton.ac.uk"    
             ],
             "fees_funding": {
-                "2024_2025":{
-                    "desc":"Fees quoted relate to study in the Academic Year 24/25 only and may be subject to inflationary increases in future years.",
-                    "International_Full_Time":"",
-                    "UK_Part_Time":"£920 per 20 Credit Module",
-                    "UK_Postgraduate_Certificate_in_Advanced_Clinical_Practice":"(60 Credits) £2,760 (1 Year)",
-                    "UK_Postgraduate_Diploma_in_Advanced_Clinical_Practice":"(120 Credits) £5,520 (2 Years)",
-                    "UK_MSc Advanced_Clinical_Practice_(Top_Up)":"(60 Credits) £2,760 (1 Year)",
-                    "UK_MSc Advanced_Clinical_Practice_(Full_Award_180_Credits)":"Year 1 (60 Credits) £2,760, Year 2 (60Credits) £2,760* (*may be subject to inflationary increase in 25/26), Year 3 (60 Credits) £2,760*(*may be subject to inflationary increase in 26/27)",
-                    "UK_MSc_ACP_Degree_Apprenticeship":"- can be fully, or part, funded by the apprenticeship levy.",
-                    "extra_info":"Employers can contact the apprenticeship team for further information via apprenticeships@northampton.ac.uk"
-                }
-            }
-        },
+                    "UK_Part_Time_per_module": "£920",
+                    "UK_Postgraduate_Certificate_in_Advanced_Clinical_Practice_1Y": "£2,760",
+                    "UK_Postgraduate_Diploma_in_Advanced_Clinical_Practice_2Y":"£5,520",
+                    "UK_MSc Advanced_Clinical_Practice_(Top_Up)_1Y":"£2,760",
+                    "UK_MSc Advanced_Clinical_Practice_3Y":"£8,280"                   
+            },
         "staff":[
             "https://www.northampton.ac.uk/directories/people/laura-elliott/",
             "https://www.northampton.ac.uk/directories/people/jonathan-mounsey/",
@@ -111,7 +91,7 @@
             "Advanced Occupational Therapy MSc":"https://www.northampton.ac.uk/courses/advanced-occupational-therapy-msc/",
             "Doctor of Professional Practice in Health and Social Care":"https://www.northampton.ac.uk/courses/advanced-occupational-therapy-msc/"    
             },
-        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/advanced_clinical.png"
+        "icon":"pngs_for_assignment/advanced_clinical.png"
         },
         {
         "title": "Financial and Investment Analysis",
@@ -122,32 +102,20 @@
             "Hands-on application of skills learnt through simulated trading via the Bloomberg terminals.",
             "Exemptions are available from main professional bodies ACCA and CIMA."
         ],
-        "course_content":{ 
-            "course_details":{
-                "info":"MSc Financial and Investment Analysis provides in-depth theoretical and practical skills for specialist roles in the finance and investment industry. You will develop analytical and critical skills which enables you to tackle simulated real-life problems and challenges in the finance industry. Grounded in ethical and responsible approaches, this programme is aligned to investment and risk management professional bodies and responds to the demands and challenges of the dynamic financial services industry.\n\nExemptions are available from main professional bodies – Association of Chartered Certified Accountants (ACCA) and Chartered Institute of Management Accountants (CIMA).",
-                "industry_placement":"The financial industry placement enables you to develop your skills and knowledge in a real-world work environment, whilst completing an applied research project. This will give you an advantage over the competition for jobs and scholarships after you graduate and could be a good starting point for setting up your own consultancy business.\n\nYour placement will need to be appropriate to your level of study and you should also be paid for this work. We will support you in finding and securing a suitable placement opportunity, however it must be noted that placements are highly competitive and there is no guarantee of a placement offer being made by an employer.\n\nIf you are unable or unwilling to progress with an industry placement, for whatever reason, you will have the option to transfer onto our Dissertation and Research Methods module in order to gain the required credits to complete your programme of study.",
-                "modules":[
-                    "Module information for the Placement route and Non-Placement route for MSc Financial and Investment",
-                    "MSc Financial and Investment Analysis (Placement Route) Award Map",
-                    "MSc Financial and Investment Analysis (Non-Placement Route) Award Map"
-                ]
-            },
+        "modules":[
+            "Module information for the Placement route and Non-Placement route for MSc Financial and Investment",
+            "MSc Financial and Investment Analysis (Placement Route) Award Map",
+            "MSc Financial and Investment Analysis (Non-Placement Route) Award Map"
+        ],
         "entry_requirements": [
-                "If you hold a recognised first or second class honours degree from a UK university or international equivalent in finance, banking, accounting or a related discipline then you will be eligible to apply for this course. If you hold professional qualifications you will also be considered for entry onto this course.",
-                "English Language Requirements\n\nAll International and EU students applying for a course with with the University of Northampton must meet the following minimum English language requirements:\n\nMinimum standard – IELTS 6.5 (or equivalent) for study at postgraduate level.\nFor information regarding English language requirements at the University, please see our IELTS page."   
+            "If you hold a recognised first or second class honours degree from a UK university or international equivalent in finance, banking, accounting or a related discipline then you will be eligible to apply for this course. If you hold professional qualifications you will also be considered for entry onto this course.",
+            "English Language Requirements\n\nAll International and EU students applying for a course with with the University of Northampton must meet the following minimum English language requirements:\n\nMinimum standard – IELTS 6.5 (or equivalent) for study at postgraduate level.\nFor information regarding English language requirements at the University, please see our IELTS page."   
         ],
         "fees_funding": {
-                "2024_2025":{
-                    "desc":"Fees quoted relate to study in the Academic Year 24/25 only and may be subject to inflationary increases in future years.",
-                    "UK_Full_Time":"£8,250",
-                    "International_Full_Time":[
-                        "£16,995",
-                        "Year 2 Placement Fee: £1,100 * (for placements starting in September 2025 or January 2026)",
-                        "*The placement fee amount will only be charged to you after you secure a placement and are enrolled on the work based project in year 2 of your course. You will not be charged this fee if you do not secure a work placement.\n\nFor information on the scholarships available to you, please see our scholarships page.\n\nFor more information about possible funding options, please visit our Fees and Funding pages."    
-                    ]
-                },
-                "additional_costs":"There are no additional costs for the Financial and Investment Analysis MSc course for students beginning their studies in September 2024. Should this change, applicants and students will be contacted by the university with details of the costs."
-            }},
+                "UK_Full_Time": "£8,250",
+                "International_Full_Time": "£16,995", 
+                "Year_2_Placement": "£1,100"    
+        },
         "staff":[
             "https://www.northampton.ac.uk/directories/people/ahmad-haboub/",
             "https://www.northampton.ac.uk/directories/people/ali-khan/",
@@ -155,10 +123,13 @@
             "https://www.northampton.ac.uk/directories/people/ai-quang-tonthat/"
         ],
         "careers_employability": "Graduates of the MSc finance and investment analysis programme who complete the professional exams can expect to take up roles within Asset Management, Accounting and Finance, Investment Banking (Mergers & Acquisition), Wealth Management, Equities, Private Equity, Risk Management, Research, Corporate Banking, Consulting, Fixed Income, Derivatives, Hedge Funds and Information Technology.",
+        "facilities": [
+            "(blank on purpose)"
+            ],
         "relatedCourses":{
             "Accounting and Finance (Top-Up) MSc":"https://www.northampton.ac.uk/courses/accounting-and-finance-msc/"               
             },
-        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/financial_investment.png"
+        "icon":"pngs_for_assignment/financial_investment.png"
         },
         {"title": "Finance MBA",
         "level":"Msc",
@@ -169,39 +140,27 @@
             "Participate in MBA business trip**",
             "Obtain PRINCE2 Foundation and Practitioner Award***"        
         ],
-        "course_content":{ 
-            "course_details": {
-                "modules":{
-                        "stage_1":[
-                            "Digital Business (BSOM083) - Compulsory",
-                            "Practical Data Analysis for Business (BSOM084) - Compulsory",
-                            "Measuring Organisational Performance (FINM074) - Compulsory",
-                            "Major Project (Standard) (FINM081) - Compulsory",
-                            "Financial Markets and Financial Technology (FINM900) - Compulsory",
-                            "Financing and Investment Decisions for Business (FINM901) - Compulsory",
-                            "Sustainable Financial and Management Reporting (FINM902) - Compulsory",
-                            "Skills for MBA Study (HRMM079) - Compulsory",
-                            "Ethical and Responsible Leadership (HRMM080) - Compulsory",
-                            "Strategy and Decision Making (STRM085) - Compulsory"
-                        ]
-                    }
-            },
+        "modules":[
+                "Digital Business (BSOM083) - Compulsory",
+                "Practical Data Analysis for Business (BSOM084) - Compulsory",
+                "Measuring Organisational Performance (FINM074) - Compulsory",
+                "Major Project (Standard) (FINM081) - Compulsory",
+                "Financial Markets and Financial Technology (FINM900) - Compulsory",
+                "Financing and Investment Decisions for Business (FINM901) - Compulsory",
+                "Sustainable Financial and Management Reporting (FINM902) - Compulsory",
+                "Skills for MBA Study (HRMM079) - Compulsory",
+                "Ethical and Responsible Leadership (HRMM080) - Compulsory",
+                "Strategy and Decision Making (STRM085) - Compulsory"
+            ],
         "entry_requirements": [
                 "If you hold a first or second class honours degree from a British university or equivalent, you will be eligible to apply for this course. Work experience is useful but is not an essential MBA entry requirement, so long as you can demonstrate a clear passion and interest in business and/or enterprise.",
                 "If English is not your first language, you must meet the following English language requirements:\n\nIELTS 6.5 overall with a minimum of 6.0 in writing and 5.5 in all other skills.\n\nEquivalent qualifications are considered, for further information regarding English language requirements at the University, please see our English Language Requirements page."   
                 ],
         "fees_funding": {
-                "2024_2025":{
-                    "desc":"Fees quoted relate to study in the Academic Year 24/25 only and may be subject to inflationary increases in future years.",
-                    "UK_Full_Time":"£11,800",
-                    "International_Full_Time":[
-                        "£17,500",
-                        "Placement fee: £1,000",
-                        "For more information about possible funding options, please visit our Fees and Funding pages."    
-                    ]
-                },
-                "additional_costs":"You will have the opportunity to participate in the MBA business event in your first year.* The MBA business event is optional and the cost should not exceed £500 for flights and accommodation (if you are travelling from the UK). You will need to allow an additional £250 for your expenses.\n\nPlease note: Additional fees, over and above your course fees, will be payable for the optional elements, for example for travel and accommodation for the Business Event or by the examination or membership bodies for membership and assessments associated with the qualifications.\n\n*Only available to students studying a full-time MBA on campus directly through the University of Northampton."
-        }},
+                    "UK_Full_Time": "£11,800",
+                    "International_Full_Time": "£17,500"    
+         
+        },
         "staff":[
             "https://www.northampton.ac.uk/directories/people/ahmad-haboub/",
             "https://www.northampton.ac.uk/directories/people/ade-otukoya/"
@@ -215,7 +174,7 @@
             "Executive Master of Business Administration MBA":"https://www.northampton.ac.uk/courses/master-of-business-administration-executive-distance-learning/",
             "Executive Master of Business Administration (Top-Up) MBA":"https://www.northampton.ac.uk/courses/executive-mba-top-up/"
         },
-        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/finance_mba.png"
+        "icon":"pngs_for_assignment/finance_mba.png"
         },
         {
         "title": "Public Health",
@@ -226,35 +185,26 @@
             "Flexible modules for part-time study.",
             "Pro-active approach to teaching and learning."
         ],
-        "course_content":{ 
-            "course_details":{                 
-                "modules":[
-                        "Philosophy and Design - Compulsory",
-                        "Leading Public Health Practice - Compulsory ",
-                        "Health Protection and Prevention* (subject to approval) - Compulsory",
-                        "Principles and Practice of Health Promotion - Compulsory",
-                        "Epidemiology - Compulsory",
-                        "Professional Project - Compulsory",
-                        "Voluntary Sector Placement - Other",
-                        "Comparative Health Care Systems - Other",
-                        "Advancing Public Health Leadership* - Other"
-                ]
-           },
-            "entry_requirements": [
-                "Applicants will normally hold a recognised First- or Second-class Honours degree in a subject area that demonstrates applicability to public health practice including:\n\nDentistry, pharmacy, biology, medicine, public health, nursing, environmental health, biomedical health/science, podiatry, occupational therapy, physiotherapy, psychology, microbiology, biochemistry.Homeopathic Medicine (including degrees in Ayurvedic Medicine and Surgery) are acceptable.Degrees in Zoology and most medical/health background undergraduate degrees are acceptable. This includes degrees such as BSc Profusion Technology and BSc Radiology.Applications listing degrees not shown above may be referred to the course tutor to assess suitability for the programme. We will need to see:\n\nDegree transcripts with exact modules studied.\nEvidence of experience in public health (if applicable).\nReferences for suitability.",
-                "English Language Requirements\n\nAll applicants for whom English is not their first language will need to demonstrate that they meet the minimum English language requirement of IELTS 6.5 overall with a score no lower than 6.0 for writing and no remaining band/component below 5.5 (or equivalent).\n\nFor information regarding English language requirements at the University, please see our IELTS page."   
+        "modules":[
+            "Philosophy and Design - Compulsory",
+            "Leading Public Health Practice - Compulsory ",
+            "Health Protection and Prevention* (subject to approval) - Compulsory",
+            "Principles and Practice of Health Promotion - Compulsory",
+            "Epidemiology - Compulsory",
+            "Professional Project - Compulsory",
+            "Voluntary Sector Placement - Other",
+            "Comparative Health Care Systems - Other",
+            "Advancing Public Health Leadership* - Other"
         ],
-            "fees_funding": {
-                "2024_2025":{
-                    "desc":"Fees quoted for the masters degree in public health relate to study in the Academic Year 24/25 only and may be subject to inflationary increases in future years.",
-                    "UK_Full_Time":"£8,250",
-                    "UK_Part_Time":"£920 per 20 Credit Module",
-                    "International_Full_Time":"£16,995"       
-                },
-                "Postgraduate_Loans":"If you are starting a postgraduate Master’s course in 24/25  you may be able to apply for a Master’s loan Student Finance England.",
-                "additional_costs":"There are no additional costs for this course for students beginning their studies in September 2024. Should this change, applicants and students will be contacted by the university with details of the costs.",
-                "Scholarships_Bursaries":"For information on the scholarships available to you, please see our scholarships page.\n\nFor more information about possible funding options, please visit our Fees and Funding pages."
-            }
+        "entry_requirements": [
+            "Applicants will normally hold a recognised First- or Second-class Honours degree in a subject area that demonstrates applicability to public health practice including:\n\nDentistry, pharmacy, biology, medicine, public health, nursing, environmental health, biomedical health/science, podiatry, occupational therapy, physiotherapy, psychology, microbiology, biochemistry.Homeopathic Medicine (including degrees in Ayurvedic Medicine and Surgery) are acceptable.Degrees in Zoology and most medical/health background undergraduate degrees are acceptable. This includes degrees such as BSc Profusion Technology and BSc Radiology.Applications listing degrees not shown above may be referred to the course tutor to assess suitability for the programme. We will need to see:\n\nDegree transcripts with exact modules studied.\nEvidence of experience in public health (if applicable).\nReferences for suitability.",
+            "English Language Requirements\n\nAll applicants for whom English is not their first language will need to demonstrate that they meet the minimum English language requirement of IELTS 6.5 overall with a score no lower than 6.0 for writing and no remaining band/component below 5.5 (or equivalent).\n\nFor information regarding English language requirements at the University, please see our IELTS page."   
+        ],
+        "fees_funding": {
+                "UK_Full_Time": "£8,250",
+                "UK_Part_Time_per_Module": "£920",
+                "International_Full_Time": "£16,995"
+            
         },
         "staff":[
             "https://www.northampton.ac.uk/directories/people/puremeluan-major/",
@@ -279,7 +229,7 @@
             "Advancing Practice MSc":"https://www.northampton.ac.uk/courses/advancing-practice-msc/",
             "Child and Adolescent Mental Health (CAMH) MSc":"https://www.northampton.ac.uk/courses/child-and-adolescent-mental-health-msc/"    
             },
-        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/public_health.png"
+        "icon":"pngs_for_assignment/public_health.png"
        
         },
         {
@@ -294,82 +244,68 @@
             "Optional accounting and finance work placement",
             "HP laptop and software included with this course for eligible students. Eligibility criteria and terms and conditions apply"    
         ],
-        "course_content":{ 
-            "course_details":{ 
-               "modules":{
-                        
-                    "stage_1":[
-                        "Financial Skills for Business (ACC1025) - Compulsory",
-                        "Fundamentals of Management Accounting (ACC1026) - Compulsory",
-                        "Practical Financial Accounting (ACC1027) - Compulsory",
-                        "Responsible Accounting (ACC1028) - Compulsory",
-                        "Corporate and Business Law (ACC1029) - Compulsory",
-                        "Digital & Economic Environment (ACC1030) - Compulsory"
-                        ],
-                    "stage_2":[
-                        "Financial Management (ACC2001) - Compulsory",
-                        "Digital Business and Finance (ACC2038) - Compulsory",
-                        "Principles of Taxation (ACC2040) - Compulsory",
-                        "Applied Financial Reporting (ACC2041) - Compulsory",
-                        "Management Accounting for Decision Making (ACC2042) - Compulsory",
-                        "The Professional Accountant (ACC2043) - Compulsory"
-                    ],
-                    "stage_3":[
-                        "Corporate Finance (ACC3009) - Compulsory",
-                        "Financial Business Partnering (ACC3040) - Compulsory",
-                        "International Financial Reporting (ACC3041) - Compulsory",
-                        "Practical Auditing (ACC3042) - Designated",
-                        "Strategy and Leadership (ACC3043) - Designated",
-                        "Taxation Practice and Advice (ACC3044) - Designated",
-                        "Corporate Governance (ACC3017) - Designated",
-                        "Project (ACC4010) - Compulsory"                    
-                    ]
-            }},
+        "modules":[
+                "Financial Skills for Business (ACC1025) - Compulsory",
+                "Fundamentals of Management Accounting (ACC1026) - Compulsory",
+                "Practical Financial Accounting (ACC1027) - Compulsory",
+                "Responsible Accounting (ACC1028) - Compulsory",
+                "Corporate and Business Law (ACC1029) - Compulsory",
+                "Digital & Economic Environment (ACC1030) - Compulsory", 
+                "Financial Management (ACC2001) - Compulsory",
+                "Digital Business and Finance (ACC2038) - Compulsory",
+                "Principles of Taxation (ACC2040) - Compulsory",
+                "Applied Financial Reporting (ACC2041) - Compulsory",
+                "Management Accounting for Decision Making (ACC2042) - Compulsory",
+                "The Professional Accountant (ACC2043) - Compulsory",
+                "Corporate Finance (ACC3009) - Compulsory",
+                "Financial Business Partnering (ACC3040) - Compulsory",
+                "International Financial Reporting (ACC3041) - Compulsory",
+                "Practical Auditing (ACC3042) - Designated",
+                "Strategy and Leadership (ACC3043) - Designated",
+                "Taxation Practice and Advice (ACC3044) - Designated",
+                "Corporate Governance (ACC3017) - Designated",
+                "Project (ACC4010) - Compulsory"                    
+            ],
             "entry_requirements": [
-            "A typical offer for Accounting and Finance would be:\n\nBBC at A Level or\nDDM at BTEC/Cambridge Technical or\nM at T Level.\nWe welcome applications from students with a mix of A levels and BTEC/Cambridge Technical qualifications.",
-            "In addition, you should hold Mathematics GCSE at grade C/4 or above or equivalent.",
-            "We welcome international applicants.",
-            "We accept AAT Level 3 in Accounting for entry into the first year and applicants will not require GCSE Maths.",
-            "ACCA modules F1, F2 & F3, (ACCA Diploma) will be considered for entry into Y2 and applicants with AAT Level 4 can also be considered for Y2.",
-            "English Language Requirements\nAll International and EU students applying for a course with us must meet the following minimum English language requirements:\n\nIELTS 6.0 (or equivalent) with a minimum of 5.5 in all bands for study at undergraduate level.For information regarding English language requirements at the University, please see our IELTS page.",
-            "For information on how to apply to study with us as an International student, please see our How to apply for International Study page."    
+                "A typical offer for Accounting and Finance would be:\n\nBBC at A Level or\nDDM at BTEC/Cambridge Technical or\nM at T Level.\nWe welcome applications from students with a mix of A levels and BTEC/Cambridge Technical qualifications.",
+                "In addition, you should hold Mathematics GCSE at grade C/4 or above or equivalent.",
+                "We welcome international applicants.",
+                "We accept AAT Level 3 in Accounting for entry into the first year and applicants will not require GCSE Maths.",
+                "ACCA modules F1, F2 & F3, (ACCA Diploma) will be considered for entry into Y2 and applicants with AAT Level 4 can also be considered for Y2.",
+                "English Language Requirements\nAll International and EU students applying for a course with us must meet the following minimum English language requirements:\n\nIELTS 6.0 (or equivalent) with a minimum of 5.5 in all bands for study at undergraduate level.For information regarding English language requirements at the University, please see our IELTS page.",
+                "For information on how to apply to study with us as an International student, please see our How to apply for International Study page."    
             ],
             "fees_funding": {
-                "2024_2025":{
-                    "desc":"Fees quoted relate to study in the Academic Year 2024/25 only and may be subject to inflationary increases in future years.",
                     "UK_Full_Time":"£9,250",
-                    "UK_Part_Time":"£1,540 per 20 credit module",
+                    "UK_Part_Time_per_Module":"£1,540", 
                     "International_Full_Time":"£15,200",
-                    "Optional Work Placement Year":"£1,200"
-                    },
-                "additional_costs":"There are no additional costs for the accounting and finance  course for students beginning their studies in September 2024. Should this change, applicants and students will be contacted by the university with details of the costs.\n\nFor information on the scholarships available to you, please see our scholarships page."
-                }
-        },
-        "staff":[
-            "https://www.northampton.ac.uk/directories/people/elizabeth-vokes/",
-            "https://www.northampton.ac.uk/directories/people/george-kapaya/",
-            "https://www.northampton.ac.uk/directories/people/anna-poole/",
-            "https://www.northampton.ac.uk/directories/people/siham-elgergeni2/",
-            "https://www.northampton.ac.uk/directories/people/ramji-poudel/",
-            "https://www.northampton.ac.uk/directories/people/mary-ritson/",
-            "https://www.northampton.ac.uk/directories/people/ouarda-dsouli/",
-            "https://www.northampton.ac.uk/directories/people/doaa-aljamal/",
-            "https://www.northampton.ac.uk/directories/people/karen-mustard/",
-            "https://www.northampton.ac.uk/directories/people/ewan-tracey/",
-            "https://www.northampton.ac.uk/directories/people/nadeem-aftab/",
-            "https://www.northampton.ac.uk/directories/people/ahmad-haboub/"
-        ],
-        "careers_employability":"Excellent career opportunities are available for graduates holding a BSc Accounting and Finance degree, especially those that will be part professionally qualified. This course will prepare you for work in any of the key accounting fields of auditing, financial accounting, management accounting, budgeting and taxation. A career in accounting offers you the flexibility to work in industry, commerce, the public sector or even private practice.\n\nMaster’s Opportunities\nOur Accounting and Finance Master’s courses are a great way to enhance the skills you have already learnt. Benefit from our 20% alumni discount on postgraduate fees to give you a CV that will catch the eye of employers.\n\nAccounting and Finance MSc\nFinancial and Investment Analysis MSc ",
-        "facilities":[
-            "https://www.northampton.ac.uk/facility/learning-hub/",
-            "https://www.northampton.ac.uk/facility/senate/"
-        ],
-        "relatedCourses":{
-            "Finance BSc (Hons)":"https://www.northampton.ac.uk/courses/finance-bsc-hons/",
-            "Economics BSc (Hons)":"https://www.northampton.ac.uk/courses/economics-bsc-hons/" 
+                    "Optional_Work_Placement_Year":"£1,200"                
             },
-        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/accounting_finance_bsc.png"
-       
+            "staff":[
+                "https://www.northampton.ac.uk/directories/people/elizabeth-vokes/",
+                "https://www.northampton.ac.uk/directories/people/george-kapaya/",
+                "https://www.northampton.ac.uk/directories/people/anna-poole/",
+                "https://www.northampton.ac.uk/directories/people/siham-elgergeni2/",
+                "https://www.northampton.ac.uk/directories/people/ramji-poudel/",
+                "https://www.northampton.ac.uk/directories/people/mary-ritson/",
+                "https://www.northampton.ac.uk/directories/people/ouarda-dsouli/",
+                "https://www.northampton.ac.uk/directories/people/doaa-aljamal/",
+                "https://www.northampton.ac.uk/directories/people/karen-mustard/",
+                "https://www.northampton.ac.uk/directories/people/ewan-tracey/",
+                "https://www.northampton.ac.uk/directories/people/nadeem-aftab/",
+                "https://www.northampton.ac.uk/directories/people/ahmad-haboub/"
+            ],
+            "careers_employability":"Excellent career opportunities are available for graduates holding a BSc Accounting and Finance degree, especially those that will be part professionally qualified. This course will prepare you for work in any of the key accounting fields of auditing, financial accounting, management accounting, budgeting and taxation. A career in accounting offers you the flexibility to work in industry, commerce, the public sector or even private practice.\n\nMaster’s Opportunities\nOur Accounting and Finance Master’s courses are a great way to enhance the skills you have already learnt. Benefit from our 20% alumni discount on postgraduate fees to give you a CV that will catch the eye of employers.\n\nAccounting and Finance MSc\nFinancial and Investment Analysis MSc ",
+            "facilities":[
+                "https://www.northampton.ac.uk/facility/learning-hub/",
+                "https://www.northampton.ac.uk/facility/senate/"
+            ],
+            "relatedCourses":{
+                "Finance BSc (Hons)":"https://www.northampton.ac.uk/courses/finance-bsc-hons/",
+                "Economics BSc (Hons)":"https://www.northampton.ac.uk/courses/economics-bsc-hons/" 
+                },
+            "icon":"pngs_for_assignment/accounting_finance_bsc.png"
+
         },
         {
      "title": "Fashion Marketing & Promotion BA (Hons)",
@@ -383,60 +319,47 @@
             "This course is a joint delivery between the Faculty of Business and Law and the Faculty of Arts, Science and Technology.",
             "HP laptop and software included with this course for eligible students. Eligibility criteria and terms and conditions apply."    
         ],
-        "course_content":{ 
-            "course_details": {
-                "modules":{
-                    
-                        "stage_1":[
-                            "Styling and Digital Fashion (FSH1117) - Compulsory",
-                            "Design Communication (FSH1118) - Compulsory",
-                            "Foundations of Marketing (MKT1001) - Compulsory",
-                            "Brand Stories and Consumer Behaviour (MKT1044) - Compulsory",
-                            "Photography for Fashion (PHO1011) - Compulsory"
-                        ],
-                        "stage_2":[
-                            "Fashion Event (FSH2120) - Compulsory",
-                            "Client Conceptual Experience (FSH2122) - Designate",
-                            "Client Brand Resolution (FSH2123) - Designate",
-                            "Brand Management (MKT2006) - Designate",
-                            "Public Relations Management and Practice (MKT2012) - Designate",
-                            "Drivers of Innovation in Fashion (MKT2056) - Designate",
-                            "Fashion Buying, Merchandising and VM (MKT2057) - Designate",
-                            "Fashion Marketing and Promotion in Practice (MKT2058) - Compulsory",
-                            "Advanced Fashion Imagery (PHO2017) - Designate",
-                            "Commercial Campaign (PHO2019) - Designate"
-                        ],
-                        "stage_3":[   
-                            "Advanced Design Communication (FSH3112) - Designate",
-                            "Visual Promotion (FSH3113) - Designate",
-                            "Professional Promotional Website (FSH3116) - Designate",
-                            "Creative Fashion Futures (FSH3117) - Designate",
-                            "Campaign Planning (MKT3014) - Designate",
-                            "Content Creation for Marketing (MKT3046) - Designate",
-                            "Entrepreneurial Skills and Freelancing (MKT3052) - Compulsory",
-                            "Marketing Concept Research (MKT3062) - Designate",
-                            "Concept Development and Realisation (MKT3063) - Designate"
-                        ]
-                }
-            },
-            "entry_requirements": [
-                "A typical offer for Fashion Marketing and Promotion would be:\n\nBCC at A Level or\nDDM at BTEC/Cambridge Technical or\nPass (C or above) at T Level.\nWe welcome applications from students with a mix of A Levels and BTEC/Cambridge Technical qualifications.",
-                "For information on how to apply to study with us, please see our How to Apply page.",
-                "Integrated Foundation Year Entry Requirements\nA typical offer for the Integrated Foundation Year would be:\n\nDEE at A Level or\nMPP at BTEC/Cambridge Technical or\nPass (D or E) at T Level.\nWe welcome applications from students with a mix of A Levels and BTEC/Cambridge Technical qualifications.",
-                "For more information on how to make an application please visit our How to Apply pages for Home and EU, and International students.",
-                "English Language Requirements\nAll International and EU students applying for a course with us must meet the following minimum English language requirements:\n\nIELTS 6.0 (or equivalent) with a minimum of 5.5 in all bands for study at undergraduate level.\nFor information regarding English language requirements at the University, please see our IELTS page."
-   ],
-            "fees_funding": {
-                "2024_2025":{
-                    "desc":"Fees quoted relate to study in the Academic Year 24/25 only and may be subject to inflationary increases in future years.",
-                    "UK_Full_Time":"£9,250",
-                    "UK_Part_Time":"£1,540 per 20 credit module",
-                    "UK Integrated Foundation Year":"£9,250 for the foundation year; thereafter standard fees apply",
-                    "International_Full_Time":"£15,200",
-                    "International Integrated Foundation Year":"£15,200 for the foundation year; thereafter standard fees apply",
-                    "Optional Work Placement Year":"£1,200"
-                    }
-                }
+        "modules":[
+            "Styling and Digital Fashion (FSH1117) - Compulsory",
+            "Design Communication (FSH1118) - Compulsory",
+            "Foundations of Marketing (MKT1001) - Compulsory",
+            "Brand Stories and Consumer Behaviour (MKT1044) - Compulsory",
+            "Photography for Fashion (PHO1011) - Compulsory",
+            "Fashion Event (FSH2120) - Compulsory",
+            "Client Conceptual Experience (FSH2122) - Designate",
+            "Client Brand Resolution (FSH2123) - Designate",
+            "Brand Management (MKT2006) - Designate",
+            "Public Relations Management and Practice (MKT2012) - Designate",
+            "Drivers of Innovation in Fashion (MKT2056) - Designate",
+            "Fashion Buying, Merchandising and VM (MKT2057) - Designate",
+            "Fashion Marketing and Promotion in Practice (MKT2058) - Compulsory",
+            "Advanced Fashion Imagery (PHO2017) - Designate",
+            "Commercial Campaign (PHO2019) - Designate",
+            "Advanced Design Communication (FSH3112) - Designate",
+            "Visual Promotion (FSH3113) - Designate",
+            "Professional Promotional Website (FSH3116) - Designate",
+            "Creative Fashion Futures (FSH3117) - Designate",
+            "Campaign Planning (MKT3014) - Designate",
+            "Content Creation for Marketing (MKT3046) - Designate",
+            "Entrepreneurial Skills and Freelancing (MKT3052) - Compulsory",
+            "Marketing Concept Research (MKT3062) - Designate",
+            "Concept Development and Realisation (MKT3063) - Designate"
+        ],
+        "entry_requirements": [
+            "A typical offer for Fashion Marketing and Promotion would be:\n\nBCC at A Level or\nDDM at BTEC/Cambridge Technical or\nPass (C or above) at T Level.\nWe welcome applications from students with a mix of A Levels and BTEC/Cambridge Technical qualifications.",
+            "For information on how to apply to study with us, please see our How to Apply page.",
+            "Integrated Foundation Year Entry Requirements\nA typical offer for the Integrated Foundation Year would be:\n\nDEE at A Level or\nMPP at BTEC/Cambridge Technical or\nPass (D or E) at T Level.\nWe welcome applications from students with a mix of A Levels and BTEC/Cambridge Technical qualifications.",
+            "For more information on how to make an application please visit our How to Apply pages for Home and EU, and International students.",
+            "English Language Requirements\nAll International and EU students applying for a course with us must meet the following minimum English language requirements:\n\nIELTS 6.0 (or equivalent) with a minimum of 5.5 in all bands for study at undergraduate level.\nFor information regarding English language requirements at the University, please see our IELTS page."
+        ],
+        "fees_funding": {
+                "UK_Full_Time":"£9,250",
+                "UK_Part_Time_per_Module":"£1,540",
+                "UK_Integrated_Foundation_Year":"£9,250",
+                "International_Full_Time":"£15,200",
+                "International_Integrated_Foundation_Year":"£15,200",
+                "Optional_Work_Placement_Year":"£1,200"
+            
         },
         "staff":[
             "https://www.northampton.ac.uk/directories/people/caroline-lloyd/",
@@ -451,11 +374,11 @@
         ],
         "relatedCourses":{
             "Marketing BSc (Hons)":"https://www.northampton.ac.uk/courses/marketing-bsc-hons/" },
-        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/fashion.png"
+        "icon":"pngs_for_assignment/fashion.png"
                
         },
         {
-     "title": "Advertising and Digital Marketing BA (Hons)",
+        "title": "Advertising and Digital Marketing BA (Hons)",
         "level":"BSc",
         "overview": "This is an exciting time to enter the marketing communications industry as advertisers develop campaigns for an increasingly complex and interesting media landscape. Throughout this Advertising and Digital Marketing Degree, you will have the opportunity to work on a wide range of digital platforms and traditional advertising media as you plan and create real campaigns. The degree culminates in a pitch to a leading company in the advertising industry, providing practical preparation for work in advertising and digital marketing roles.\n\nOur Advertising and Digital Marketing Degree suits those interested in creativity, tech and business with recent students working at companies such as Google, Disney, YouTube, The Financial Times, MediaCom, Next, Superdrug, Sainsburys, Publicis, Bauer Media and WPP.\n\nProfessional Body: Digital Marketing Institute and Chartered Institute of Public Relations",
         "highlights": [
@@ -466,39 +389,29 @@
             "100% overall student satisfaction, NSS 2020.",
             "HP laptop and software included with this course for eligible students. Eligibility criteria and terms and conditions apply."    
         ],
-        "course_content":{ 
-            "course_details": {
-                "modules":{
-                    "stage_1":[
-                        "Foundations of Marketing (MKT1001) - Compulsory",
-                        "Introduction to Marketing Communications (MKT1002) - Compulsory",
-                        "Foundations of Advertising Media (MKT1018) - Compulsory",
-                        "Digital Marketing Essentials (MKT1029) - Compulsory",
-                        "Understanding Consumers (MKT1030) - Compulsory",
-                        "Professional Skills for Marketing Practice (MKT1043) - Compulsory"
-                    ],
-                    "stage_2":[
-                        "Brand Management (MKT2006) - Designate",
-                        "E-Marketing (MKT2009) - Compulsory",
-                        "Integrated Marketing Communications (MKT2011) - Compulsory",
-                        "Public Relations Management and Practice (MKT2012) - Designate",
-                        "Professional Practice for the Creative Industries (MKT2020) - Compulsory",
-                        "Managing the Communications Process (MKT2050) - Compulsory",
-                        "Marketing Research and Insight (MKT2059) - Compulsory"                            
-                    ],
-                    "stage_3":[
-                        "Advertising Consultancy Project (MKT3036) - Designate",
-                        "Issues in Advertising Practice (MKT3037) - Compulsory",
-                        "Content Creation for Marketing (MKT3046) - Designate",
-                        "Digital Entrepreneur (MKT3049) - Designate",
-                        "Consumerism and Sustainability (MKT3051) - Designate",
-                        "Business-to-Business (B2B) Marketing (MKT3056) - Designate",
-                        "Marketing Dissertation (MKT4001) - Designate",
-                        "Research Project (MKT4002) - Designate"      
-                    ]
-                }           
-            },
-    
+        "modules":[
+            "Foundations of Marketing (MKT1001) - Compulsory",
+            "Introduction to Marketing Communications (MKT1002) - Compulsory",
+            "Foundations of Advertising Media (MKT1018) - Compulsory",
+            "Digital Marketing Essentials (MKT1029) - Compulsory",
+            "Understanding Consumers (MKT1030) - Compulsory",
+            "Professional Skills for Marketing Practice (MKT1043) - Compulsory",
+            "Brand Management (MKT2006) - Designate",
+            "E-Marketing (MKT2009) - Compulsory",
+            "Integrated Marketing Communications (MKT2011) - Compulsory",
+            "Public Relations Management and Practice (MKT2012) - Designate",
+            "Professional Practice for the Creative Industries (MKT2020) - Compulsory",
+            "Managing the Communications Process (MKT2050) - Compulsory",
+            "Marketing Research and Insight (MKT2059) - Compulsory",                            
+            "Advertising Consultancy Project (MKT3036) - Designate",
+            "Issues in Advertising Practice (MKT3037) - Compulsory",
+            "Content Creation for Marketing (MKT3046) - Designate",
+            "Digital Entrepreneur (MKT3049) - Designate",
+            "Consumerism and Sustainability (MKT3051) - Designate",
+            "Business-to-Business (B2B) Marketing (MKT3056) - Designate",
+            "Marketing Dissertation (MKT4001) - Designate",
+            "Research Project (MKT4002) - Designate"      
+        ],
             "entry_requirements": [
                 "A typical offer for Advertising and Digital Marketing would be:\n\nBCC at A Level or\nDDM at BTEC/Cambridge Technical or\nPass (C or above) at T level.\nWe welcome applications from students with a mix of A levels and BTEC/Cambridge Technical qualifications.",
                 "For information on how to apply to study with us, please see our How to Apply page.",
@@ -506,18 +419,15 @@
                 "For more information on how to make an application please visit our How to Apply pages for Home and EU, and International students.",
                 "English Language Requirements\nAll International and EU students applying for a course with us must meet the following minimum English language requirements:\n\nIELTS 6.0 (or equivalent) with a minimum of 5.5 in all bands for study at undergraduate level.\nFor information regarding English language requirements at the University, please see our IELTS page."
             ],
-                "fees_funding": {
-                    "2024_2025":{
-                    "desc":"Fees quoted relate to study in the Academic Year 24/25 only and may be subject to inflationary increases in future years.",
-                    "UK_Full_Time":"£9,250",
-                    "UK_Part_Time":"£1,540 per 20 credit module",
-                    "UK Integrated Foundation Year":"£9,250 for the foundation year; thereafter standard fees apply",
-                    "International_Full_Time":"£15,200",
-                    "International Integrated Foundation Year":"£15,200 for the foundation year; thereafter standard fees apply",
-                    "Optional Work Placement Year":"£1,200"
-                    }
-                }},
-        "staff":[
+            "fees_funding": {
+                "UK_Full_Time":"£9,250",
+                "UK_Part_Time_per_Module":"£1,540",
+                "UK_Integrated_Foundation_Year":"£9,250",
+                "International_Full_Time":"£15,200",
+                "International_Integrated_Foundation_Year":"£15,200",
+                "Optional_Work_Placement_Year":"£1,200"
+            },
+        "staff": [
             "https://www.northampton.ac.uk/directories/people/kardi-somerfield/",
             "https://www.northampton.ac.uk/directories/people/christiana-stephen/",
             "https://www.northampton.ac.uk/directories/people/martin-smith/",
@@ -537,7 +447,7 @@
         "relatedCourses":{
             "Fashion Marketing and Promotion BA(Hons)":"https://www.northampton.ac.uk/courses/fashion-marketing-and-promotion-ba-hons/",
             "Marketing BSc (Hons)":"https://www.northampton.ac.uk/courses/marketing-bsc-hons/" },
-        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/advertisinf_digital_marketing.png"        
+        "icon":"pngs_for_assignment/advertising_digital_marketing.png"        
         },
         {
      "title": "Computer Science BSc (Hons)",
@@ -552,52 +462,39 @@
             "HP laptop and software included with this course for eligible students. Eligibility criteria and terms and conditions apply.",
             "Guaranteed paid internship with the Northampton Employment Promise."
         ],
-        "course_content":{ 
-            "course_details": {
-                "modules":{
-                    "stage_1":[
-                        "Problem Solving and Programming (CSY1020) - Compulsory",
-                        "Mathematics for Computer Science (CSY1060) - Compulsory",
-                        "Computer Systems (CSY1061) - Compulsory",
-                        "Computer Communications (CSY1062) - Compulsory",
-                        "Web Development (CSY1063) - Compulsory",
-                        "Software Engineering Fundamentals (CSY1064) - Compulsory"                    
-                    ],
-                    "stage_2":[
-                        "Relational Databases (CSY2080) - Compulsory",
-                        "Data Structures and Algorithms (CSY2087) - Compulsory",
-                        "Group Project (CSY2088) - Compulsory",
-                        "Web Programming (CSY2089) - Compulsory",
-                        "Operating Systems (CSY2092) - Compulsory",
-                        "Systems Design and Development (CSY2094) - Compulsory"  
-                    ],
-                    "stage_3":[
-                        "Media Technology (CSY3058) - Compulsory",
-                        "Modern Databases (CSY3059) - Compulsory",
-                        "Advanced AI and Applications (CSY3060) - Compulsory",
-                        "Cybersecurity and Applied Cryptography (CSY3062) - Compulsory",
-                        "Computing Project Dissertation (CSY4022) - Compulsory"
+        "modules":[   
+              "Problem Solving and Programming (CSY1020) - Compulsory",
+              "Mathematics for Computer Science (CSY1060) - Compulsory",
+              "Computer Systems (CSY1061) - Compulsory",
+              "Computer Communications (CSY1062) - Compulsory",
+              "Web Development (CSY1063) - Compulsory",
+              "Software Engineering Fundamentals (CSY1064) - Compulsory",                    
+              "Relational Databases (CSY2080) - Compulsory",
+              "Data Structures and Algorithms (CSY2087) - Compulsory",
+              "Group Project (CSY2088) - Compulsory",
+              "Web Programming (CSY2089) - Compulsory",
+              "Operating Systems (CSY2092) - Compulsory",
+              "Systems Design and Development (CSY2094) - Compulsory",  
+              "Media Technology (CSY3058) - Compulsory",
+              "Modern Databases (CSY3059) - Compulsory",
+              "Advanced AI and Applications (CSY3060) - Compulsory",
+              "Cybersecurity and Applied Cryptography (CSY3062) - Compulsory",
+              "Computing Project Dissertation (CSY4022) - Compulsory"
 
-                    ]
-                }
-            },
+        ],
             "entry_requirements": [
                 "A typical offer could be:\n\nBCC at A-Level or,\nDMM at BTEC or,\nPass (C or above) at T Level\n\nApplicants will be expected to have achieved GCSE Mathematics (or equivalent) at grade C/4 or above. We welcome international applicants and applications from students with a range of non-traditional educational or professional qualifications.",
                 "For information on how to apply to study with us, please see our How to Apply page.",
                 "Integrated Foundation Year Entry Requirements\nAdmission to this foundation course is:\n\nDEE at A Level or,\nMPP at BTEC or,\nPass (D or E) at T Level\n\nHowever, we would also like to hear from you if you have professional or industry experience instead, a range of other qualifications or self-developed subject knowledge that relates to the course you wish to study.",
                 "English Language Requirements\nAll International and EU students applying for a course with us must meet the following minimum English language requirements:\n\nIELTS 6.0 (or equivalent) with a minimum of 5.5 in all bands for study at undergraduate level.\nFor information regarding English language requirements at the University, please see our IELTS page."
-   ],
+            ],
             "fees_funding": {
-                "2024_2025":{
-                    "desc":"Fees quoted relate to study in the Academic Year 24/25 only and may be subject to inflationary increases in future years.",
                     "UK_Full_Time":"£9,250",
-                    "UK_Part_Time":"£1,540 per 20 credit module",
-                    "UK Integrated Foundation Year":"£9,250",
+                    "UK_Part_Time_per_Module":"£1,540",
+                    "UK_Integrated_Foundation_Year":"£9,250",
                     "International_Full_Time":"£15,200",
-                    "International Integrated Foundation Year":"£15,200"
-                    }
-                }
-        },
+                    "International_Integrated_Foundation_Year":"£15,200"
+            },
         "staff":[
             "https://www.northampton.ac.uk/directories/people/james-xue/",
             "https://www.northampton.ac.uk/directories/people/suraj-ajit/",
@@ -609,13 +506,16 @@
             "https://www.northampton.ac.uk/directories/people/amir-minai/"
             ],
         "careers_employability":"Students on this programme will benefit from our excellent links to the computing industry (e.g., Barclaycard, GE) and other organisations such as BCS, IEEE, CISCO Network Academy and more. Upon successful completion of the Computer Science BSc, we are confident that students will find a graduate level job; if this is not the case, through our Northampton Employment Promise, we will help you secure a three–six month paid internship to get you started.\n\nMaters's Opportunities\n\nOur master’s courses are a great way to enhance the skills you have already learnt. Benefit from our 20% alumni discount on master’s fees to give you a CV that will catch the eye of employers.",
+        "facilities": [
+            "(blank on purpose)"
+            ],
         "relatedCourses":{
             "Computing Msc":"https://www.northampton.ac.uk/courses/computing-msc/",
             "Computing (Software Engineering) Msc":"https://www.northampton.ac.uk/courses/computing-software-engineering-msc/",
             "Computing (Internet Technology and Security) Msc":"https://www.northampton.ac.uk/courses/computing-internet-technology-and-security-msc/",
             "Computing (Computer Networks Engineering) Msc":"https://www.northampton.ac.uk/courses/computing-computer-networks-engineering-msc/"    
             },
-            "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/computer_science.png"       
+            "icon":"pngs_for_assignment/computer_science.png"       
         },
         {
      "title": "Psychology BSc (Hons)",
@@ -634,58 +534,47 @@
             "HP laptop and software included with this course for eligible students. Eligibility criteria and terms and conditions apply.",
             "Guaranteed paid internship with the Northampton Employment Promise."
         ],
-        "course_content":{ 
-            "course_details": {
-                "modules":{                    
-                    "stage_1":[
-                        "Psychology in Practice (PSY1001) - Compulsory",
-                        "Introduction to Psychology (PSY1003) - Compulsory",
-                        "Investigating Psychology (PSY1004) - Compulsory",
-                        "Becoming a Psychologist (PSY1006) - Compulsory",
-                        "Positive Psychology (PSY1011) - Compulsory",
-                        "Psychology for Life (PSY1012) - Compulsory"              
-                    ],
-                    "stage_2":[
-                        "Independent Practical Work (PSY2003) - Compulsory",
-                        "Research Methods and Statistics (PSY2005) - Compulsory",
-                        "The Human Animal (PSY2006) - Designate",
-                        "The Psychology of Well-being (PSY2007) - Designate",
-                        "The Psychology of Learning and Teaching in Educational Settings (PSY2025) - Designate",
-                        "Biological and Cognitive Psychology: Mechanisms of the Mind (PSY2029) - Designate",
-                        "Development and Society (PSY2030) - Compulsory",
-                        "Personality & the Fundamentals of Psychology (PSY2031) - Compulsory" 
-                    ],
-                    "stage_3":[
-                        "Psychology of Mental Health (PSY3004) - Designate",
-                        "Parapsychology and Anomalous Experiences (PSY3007) - Designate",
-                        "The Psychology of Health (PSY3013) - Designate",
-                        "Forensic Psychology (PSY3016) - Designate",
-                        "Educational Psychology (PSY3023) - Designate",
-                        "Understanding the Social World (PSY3024) - Designate",
-                        "Psychology of Spirituality, Religion and Wellbeing (PSY3027) - Designate",
-                        "Lifespan Development (PSY3053) - Designate",
-                        "Neuroscience of Mind (PSY3054) - Designate",
-                        "Applying Positive Psychology (PSY3055) - Designate",
-                        "The Psychology of Work and Organisations (PSY3063) - Designate",
-                        "Psychology Dissertation (PSY4001) - Designate",
-                        "Psychology Library-Based Dissertation (PSY4004) - Designate"
-                    
-                ]}},
-            "entry_requirements": [
-                "BSc Psychology entry requirements at the University of Northampton are:\n\nBBC at A Level or\n\nDDM at BTEC Extended Diploma/Cambridge Technical o\n\nM at T Level\n\nWe welcome applications from students with a mix of A levels and BTEC/Cambridge Technical qualifications.\n\nIn addition, you will be expected to have achieved GCSE Maths at Grade C/4 or above. Domestic equivalencies are not accepted, apart from Access applicants who must take 12 credits of Maths Level 2 or 6 credits of Maths Level 3 as part of their Access course. International equivalences will be reviewed on application.",
-                "Integrated Foundation Year Entry Requirements\nThe standard entry requirements for the BSc psychology Integrated Foundation Year are:\n\nDEE at A level or\n\nMPP at BTEC/Cambridge Technical or\n\nPass (D or E) at T Level\n\nWe welcome applications from students with a mix of A levels and BTEC/Cambridge Technical qualifications.\n\nFor information on how to apply to study with us, please see our How to Apply page",
-                "English Language Requirements\nAll International and EU students applying for a course with us must meet the following minimum English language requirements:\n\nIELTS 6.0 (or equivalent) with a minimum of 5.5 in all bands for study at undergraduate level.\nFor information regarding English language requirements at the University, please see our IELTS page."
-   ],
-            "fees_funding": {
-                "2024_2025":{
-                    "desc":"Fees quoted for the BSc degree in psychology relate to study in the Academic Year 24/25 only. They may be subject to inflationary increases in future years.",
-                    "UK_Full_Time":"£9,250",
-                    "UK_Part_Time":"£1,540 per 20 credit module",
-                    "UK Integrated Foundation Year":"£9,250 as part of a four year programme (subsequent years will be charged at standard BA/BSc rate).",
-                    "International_Full_Time":"£15,200",
-                    "International Integrated Foundation Year":"£15,200"
-                    }
-                }
+        "modules":[              
+            "Psychology in Practice (PSY1001) - Compulsory",
+            "Introduction to Psychology (PSY1003) - Compulsory",
+            "Investigating Psychology (PSY1004) - Compulsory",
+            "Becoming a Psychologist (PSY1006) - Compulsory",
+            "Positive Psychology (PSY1011) - Compulsory",
+            "Psychology for Life (PSY1012) - Compulsory",              
+            "Independent Practical Work (PSY2003) - Compulsory",
+            "Research Methods and Statistics (PSY2005) - Compulsory",
+            "The Human Animal (PSY2006) - Designate",
+            "The Psychology of Well-being (PSY2007) - Designate",
+            "The Psychology of Learning and Teaching in Educational Settings (PSY2025) - Designate",
+            "Biological and Cognitive Psychology: Mechanisms of the Mind (PSY2029) - Designate",
+            "Development and Society (PSY2030) - Compulsory",
+            "Personality & the Fundamentals of Psychology (PSY2031) - Compulsory", 
+            "Psychology of Mental Health (PSY3004) - Designate",
+            "Parapsychology and Anomalous Experiences (PSY3007) - Designate",
+            "The Psychology of Health (PSY3013) - Designate",
+            "Forensic Psychology (PSY3016) - Designate",
+            "Educational Psychology (PSY3023) - Designate",
+            "Understanding the Social World (PSY3024) - Designate",
+            "Psychology of Spirituality, Religion and Wellbeing (PSY3027) - Designate",
+            "Lifespan Development (PSY3053) - Designate",
+            "Neuroscience of Mind (PSY3054) - Designate",
+            "Applying Positive Psychology (PSY3055) - Designate",
+            "The Psychology of Work and Organisations (PSY3063) - Designate",
+            "Psychology Dissertation (PSY4001) - Designate",
+            "Psychology Library-Based Dissertation (PSY4004) - Designate"
+
+        ],
+        "entry_requirements": [
+            "BSc Psychology entry requirements at the University of Northampton are:\n\nBBC at A Level or\n\nDDM at BTEC Extended Diploma/Cambridge Technical o\n\nM at T Level\n\nWe welcome applications from students with a mix of A levels and BTEC/Cambridge Technical qualifications.\n\nIn addition, you will be expected to have achieved GCSE Maths at Grade C/4 or above. Domestic equivalencies are not accepted, apart from Access applicants who must take 12 credits of Maths Level 2 or 6 credits of Maths Level 3 as part of their Access course. International equivalences will be reviewed on application.",
+            "Integrated Foundation Year Entry Requirements\nThe standard entry requirements for the BSc psychology Integrated Foundation Year are:\n\nDEE at A level or\n\nMPP at BTEC/Cambridge Technical or\n\nPass (D or E) at T Level\n\nWe welcome applications from students with a mix of A levels and BTEC/Cambridge Technical qualifications.\n\nFor information on how to apply to study with us, please see our How to Apply page",
+            "English Language Requirements\nAll International and EU students applying for a course with us must meet the following minimum English language requirements:\n\nIELTS 6.0 (or equivalent) with a minimum of 5.5 in all bands for study at undergraduate level.\nFor information regarding English language requirements at the University, please see our IELTS page."
+        ],
+        "fees_funding": {
+            "UK_Full_Time":"£9,250",
+            "UK_Part_Time_per_Module":"£1,540",
+            "UK_Integrated_Foundation_Year":"£9,250",
+            "International_Full_Time":"£15,200",
+            "International_Integrated_Foundation_Year":"£15,200"
         },
         "staff":[
             "https://www.northampton.ac.uk/directories/people/charlotte-dann/",
@@ -708,7 +597,7 @@
             "Psychology (Counseling) BSc (Hons)":"https://www.northampton.ac.uk/courses/psychology-counselling-bsc-hons/",
             "Criminology with Psychology BA(Hons":"https://www.northampton.ac.uk/courses/criminology-with-psychology-ba-hons/"    
             },
-        "icon":"C:/Users/pkout/NetBeans_Projects/Task1/pngs_for_assignment/psychology.png"
+        "icon":"pngs_for_assignment/psychology.png"
         }
     ]
 }

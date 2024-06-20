@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Courses Schema",
+  "title": "Generated schema for Root",
   "type": "object",
   "properties": {
     "courses": {
@@ -23,99 +23,62 @@
               "type": "string"
             }
           },
-          "course_content": {
+          "modules": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "entry_requirements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "fees_funding": {
             "type": "object",
             "properties": {
-              "course_details": {
-                "type": "object",
-                "properties": {
-                  "modules": {},
-                  "info": {
-                    "type": "string"
-                  },
-                  "industry_placement": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "modules"
-                ]
+              "UK_Full_Time": {
+                "type": "string"
               },
-              "entry_requirements": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
+              "International_Full_Time": {
+                "type": "string"
               },
-              "fees_funding": {
-                "type": "object",
-                "properties": {
-                  "2024_2025": {
-                    "type": "object",
-                    "properties": {
-                      "desc": {
-                        "type": "string"
-                      },
-                      "UK_Full_Time": {
-                        "type": "string"
-                      },
-                      "International_Full_Time": {},
-                      "UK_Part_Time": {
-                        "type": "string"
-                      },
-                      "UK_Postgraduate_Certificate_in_Advanced_Clinical_Practice": {
-                        "type": "string"
-                      },
-                      "UK_Postgraduate_Diploma_in_Advanced_Clinical_Practice": {
-                        "type": "string"
-                      },
-                      "UK_MSc Advanced_Clinical_Practice_(Top_Up)": {
-                        "type": "string"
-                      },
-                      "UK_MSc Advanced_Clinical_Practice_(Full_Award_180_Credits)": {
-                        "type": "string"
-                      },
-                      "UK_MSc_ACP_Degree_Apprenticeship": {
-                        "type": "string"
-                      },
-                      "extra_info": {
-                        "type": "string"
-                      },
-                      "Optional Work Placement Year": {
-                        "type": "string"
-                      },
-                      "UK Integrated Foundation Year": {
-                        "type": "string"
-                      },
-                      "International Integrated Foundation Year": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "desc",
-                      "International_Full_Time"
-                    ]
-                  },
-                  "additional_costs": {
-                    "type": "string"
-                  },
-                  "Postgraduate_Loans": {
-                    "type": "string"
-                  },
-                  "Scholarships_Bursaries": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "2024_2025"
-                ]
+              "Year_2_Placement_Fee": {
+                "type": "string"
+              },
+              "UK_Part_Time_per_module": {
+                "type": "string"
+              },
+              "UK_Postgraduate_Certificate_in_Advanced_Clinical_Practice_1Y": {
+                "type": "string"
+              },
+              "UK_Postgraduate_Diploma_in_Advanced_Clinical_Practice_2Y": {
+                "type": "string"
+              },
+              "UK_MSc Advanced_Clinical_Practice_(Top_Up)_1Y": {
+                "type": "string"
+              },
+              "UK_MSc Advanced_Clinical_Practice_3Y": {
+                "type": "string"
+              },
+              "Year_2_Placement": {
+                "type": "string"
+              },
+              "UK_Part_Time_per_Module": {
+                "type": "string"
+              },
+              "Optional_Work_Placement_Year": {
+                "type": "string"
+              },
+              "UK_Integrated_Foundation_Year": {
+                "type": "string"
+              },
+              "International_Integrated_Foundation_Year": {
+                "type": "string"
               }
             },
-            "required": [
-              "course_details",
-              "entry_requirements",
-              "fees_funding"
-            ]
+            "required": []
           },
           "staff": {
             "type": "array",
@@ -216,8 +179,11 @@
           "level",
           "overview",
           "highlights",
-          "course_content",
+          "modules",
+          "entry_requirements",
+          "fees_funding",
           "staff",
+          "facilities",
           "relatedCourses",
           "icon"
         ]

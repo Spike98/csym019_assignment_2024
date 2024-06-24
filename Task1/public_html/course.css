@@ -1,8 +1,8 @@
 body{
     font-family: Arial, sans-serif;
     font-weight: 300;
-    color:#A7A1AE;
-    background-color: #1F2739;
+    color:#eeeeee;
+    background-color: #47555e;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ h1{
     font-weight:300;
     line-height:1em;
     text-align:center;
-    color:#4DC3FA;
+    color:#7aa5d2;
     margin:1em 0;        
 }
 .container{
@@ -62,12 +62,12 @@ h1{
     font-weight:bold;
     font-size:0.9em;
     text-align:center;
-    color:#FB667A;
-    background-color:#1F2739;
+    color:#a5ecd7;
+    background-color:#303841;
 }
 .container tbody tr:hover{
-    background-color:#f5e942;
-    box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+    background-color:#7aa5d2;
+    box-shadow: #5f7f99 -1px 1px, #5f7f99 -2px 2px, #5f7f99 -3px 3px, #5f7f99 -4px 4px, #5f7f99 -5px 5px, #5f7f99 -6px 6px;
     transform: translate3d(6px, -6px, 0);
     transition-delay: 0s;
     transition-duration: 0.4s;

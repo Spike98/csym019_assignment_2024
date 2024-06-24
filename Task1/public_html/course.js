@@ -49,11 +49,11 @@ function fetchExchangeRate(courses){
 }
 
 function updateTable(courses, rate) {
-    const tbody = document.querySelector("#course-table tbody"); //clear table's content before calling new content
+    const tbody = document.querySelector(".container tbody"); //clear table's content before calling new content
     tbody.innerHTML = "";
     
     const currencies = ["USD", "EUR", "GBP"];
-
+    
     courses.forEach((course,index) => {
         try {
             const row = document.createElement("tr");

@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    height: 100vh;
+}
+
+header {
+    grid-area: header;
+    background-color: #555;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.sidebar a.active, .sidebar a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.add-button {
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.add-button:hover {
+    background-color: #333;
+}
+
+main {
+    grid-area: main;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input[type="text"], form textarea, form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+#modules {
+    margin-top: 10px;
+}
+
+.module {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.module input[type="text"] {
+    flex: 2;
+    margin-right: 10px;
+}
+
+.module input[type="number"] {
+    flex: 1;
+}

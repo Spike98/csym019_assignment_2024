@@ -1,0 +1,196 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "courses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "level": {
+            "type": "string"
+          },
+          "overview": {
+            "type": "string"
+          },
+          "highlights": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "modules": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "entry_requirements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "fees_funding": {
+            "type": "object",
+            "properties": {
+              "UK_Full_Time": {
+                "type": "string"
+              },
+              "International_Full_Time": {
+                "type": "string"
+              },
+              "Year_2_Placement_Fee": {
+                "type": "string"
+              },
+              "UK_Part_Time_per_module": {
+                "type": "string"
+              },
+              "UK_Postgraduate_Certificate_in_Advanced_Clinical_Practice_1Y": {
+                "type": "string"
+              },
+              "UK_Postgraduate_Diploma_in_Advanced_Clinical_Practice_2Y": {
+                "type": "string"
+              },
+              "UK_MSc Advanced_Clinical_Practice_(Top_Up)_1Y": {
+                "type": "string"
+              },
+              "UK_MSc Advanced_Clinical_Practice_3Y": {
+                "type": "string"
+              },
+              "Year_2_Placement": {
+                "type": "string"
+              },
+              "UK_Part_Time_per_Module": {
+                "type": "string"
+              },
+              "Optional_Work_Placement_Year": {
+                "type": "string"
+              },
+              "UK_Integrated_Foundation_Year": {
+                "type": "string"
+              },
+              "International_Integrated_Foundation_Year": {
+                "type": "string"
+              }
+            },
+            "required": []
+          },
+          "staff": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "careers_employability": {
+            "type": "string"
+          },
+          "facilities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "relatedCourses": {
+            "type": "object",
+            "properties": {
+              "Accounting and Finance (Top-Up) MSc": {
+                "type": "string"
+              },
+              "Financial and Investment Analysis MSc": {
+                "type": "string"
+              },
+              "Master of Business Administration – Finance MBA": {
+                "type": "string"
+              },
+              "Advancing Practice MSc": {
+                "type": "string"
+              },
+              "Public Health MSc": {
+                "type": "string"
+              },
+              "Advanced Occupational Therapy MSc": {
+                "type": "string"
+              },
+              "Doctor of Professional Practice in Health and Social Care": {
+                "type": "string"
+              },
+              "Master of Business Administration MBA": {
+                "type": "string"
+              },
+              "Executive Master of Business Administration MBA": {
+                "type": "string"
+              },
+              "Executive Master of Business Administration (Top-Up) MBA": {
+                "type": "string"
+              },
+              "Physiotherapy (pre-registration) MSc": {
+                "type": "string"
+              },
+              "Advanced Clinical Practice MSc": {
+                "type": "string"
+              },
+              "Child and Adolescent Mental Health (CAMH) MSc": {
+                "type": "string"
+              },
+              "Finance BSc (Hons)": {
+                "type": "string"
+              },
+              "Economics BSc (Hons)": {
+                "type": "string"
+              },
+              "Marketing BSc (Hons)": {
+                "type": "string"
+              },
+              "Fashion Marketing and Promotion BA(Hons)": {
+                "type": "string"
+              },
+              "Computing Msc": {
+                "type": "string"
+              },
+              "Computing (Software Engineering) Msc": {
+                "type": "string"
+              },
+              "Computing (Internet Technology and Security) Msc": {
+                "type": "string"
+              },
+              "Computing (Computer Networks Engineering) Msc": {
+                "type": "string"
+              },
+              "Psychology (Counseling) BSc (Hons)": {
+                "type": "string"
+              },
+              "Criminology with Psychology BA(Hons": {
+                "type": "string"
+              }
+            },
+            "required": []
+          },
+          "icon": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "level",
+          "overview",
+          "highlights",
+          "modules",
+          "entry_requirements",
+          "fees_funding",
+          "staff",
+          "facilities",
+          "relatedCourses",
+          "icon"
+        ]
+      }
+    }
+  },
+  "required": [
+    "courses"
+  ]
+}

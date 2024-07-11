@@ -64,7 +64,7 @@ $result = $conn->query($sql);
     </div>
     <main>
         <h1>Select Courses for Report</h1>
-        <form action="index.php" method="post">
+        <form action="courseReport.php" method="post">
             <table border="1">
                 <thead>
                     <tr>

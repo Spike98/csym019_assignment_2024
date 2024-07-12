@@ -1,4 +1,10 @@
 <?php
+session_start();
+if (!isset($_SESSION['username'])) {
+    header("Location: loginPage.php");
+    exit();
+}
+
 $servername = "localhost";
 $username = "root";
 $password = "";

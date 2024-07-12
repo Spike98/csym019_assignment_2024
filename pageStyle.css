@@ -1,74 +1,49 @@
-body {
-    font-family: "Lato", sans-serif;
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.header-wrapper {
-    display: flex;
-    align-items: center;
-    position: relative;
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.header-wrapper header {
-    flex: 1;
-    text-align: center; /* Εξασφαλίζει το κεντράρισμα του κειμένου */
-}
-
-.sidebar {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidebar a {
-    padding: 8px 8px 8px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+.login-container label {
     display: block;
-    transition: 0.3s;
+    margin-bottom: 5px;
 }
 
-.sidebar a:hover {
-    color: #f1f1f1;
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.main {
-    transition: margin-left 0.5s;
-    padding: 16px;
-    margin-left: 220px; /* Ensures content does not hide behind sidebar */
-}
-
-.toggle-btn {
-    font-size: 30px;
-    cursor: pointer;
-    padding: 10px 15px;
-    background-color: #111;
-    color: white;
-    z-index: 2;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-}
-
-.fixed-buttons {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-footer {
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
     background: #333;
     color: white;
-    padding: 1em;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background: #555;
+}
+
+.error-message {
+    color: red;
     text-align: center;
+    margin-bottom: 15px;
 }

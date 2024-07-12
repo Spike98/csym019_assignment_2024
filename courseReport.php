@@ -4,54 +4,54 @@ $username = "root";
 $password = "";
 $dbname = "university";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+// Έλεγχος αν ο χρήστης έχει επιλέξει τουλάχιστον ένα μάθημα
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['generate_report'])) {
+    $course_ids = $_POST['course_ids'];
+    if (empty($course_ids)) {
+        die("No courses selected.");
+    }
 
-// έλεγχος σύνδεσης
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+    // έλεγχος σύνδεσης
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    // ανάκτηση δεδομένων από τον πίνακα courses
+    $placeholders = implode(',', array_fill(0, count($course_ids), '?'));
+    $sql_courses = "SELECT * FROM courses WHERE id IN ($placeholders)";
+    $stmt_courses = $conn->prepare($sql_courses);
+    $types = str_repeat('i', count($course_ids));
+    $stmt_courses->bind_param($types, ...$course_ids);
+    $stmt_courses->execute();
+    $result_courses = $stmt_courses->get_result();
+    $courses = $result_courses->fetch_all(MYSQLI_ASSOC);
+    $stmt_courses->close();
+
+    // ανάκτηση δεδομένων από τον πίνακα modules
+    $sql_modules = "SELECT * FROM modules WHERE course_id IN ($placeholders)";
+    $stmt_modules = $conn->prepare($sql_modules);
+    $stmt_modules->bind_param($types, ...$course_ids);
+    $stmt_modules->execute();
+    $result_modules = $stmt_modules->get_result();
+    $modules = $result_modules->fetch_all(MYSQLI_ASSOC);
+    $stmt_modules->close();
+
+    // για καθε module τοποθετουμε το module στον modules_by_course
+    // με key το course_id του, δηλαδη ο modules_by_course εμπεριέχει
+    // για καθε course_id το module_name, το module_id (1,2,3 κλπ) και τα
+    // credits που αντιστοιχούν στο συγκεκριμένο module
+    $modules_by_course = [];
+    foreach ($modules as $module) {
+        $modules_by_course[$module['course_id']][] = $module;
+    }
+
+    $conn->close();
+} else {
+    die("No courses selected or invalid request.");
 }
-
-// έλεγχος αν ο χρήστης έχει επιλέξει τουλάχιστον ένα μάθημα
-$course_ids = $_POST['course_ids'];
-if (empty($course_ids)) {
-    die("No courses selected.");
-}
-
-// ανάκτηση δεδομένων από τον πίνακα courses
-$placeholders = implode(',', array_fill(0, count($course_ids), '?'));
-$sql_courses = "SELECT * FROM courses WHERE id IN ($placeholders)";
-$stmt_courses = $conn->prepare($sql_courses);
-$types = str_repeat('i', count($course_ids));
-$stmt_courses->bind_param($types, ...$course_ids);
-$stmt_courses->execute();
-$result_courses = $stmt_courses->get_result();
-$courses = $result_courses->fetch_all(MYSQLI_ASSOC);
-$stmt_courses->close();
-
-// ανάκτηση δεδομένων από τον πίνακα modules
-$sql_modules = "SELECT * FROM modules WHERE course_id IN ($placeholders)";
-$stmt_modules = $conn->prepare($sql_modules);
-$stmt_modules->bind_param($types, ...$course_ids);
-$stmt_modules->execute();
-$result_modules = $stmt_modules->get_result();
-$modules = $result_modules->fetch_all(MYSQLI_ASSOC);
-$stmt_modules->close();
-
-//για καθε module τοποθετουμε το module στον modules_by_course 
-//με key το course_id του , δηλαδη ο modules_by_course εμπεριέχει
-//για καθε course_id το module_name, το module_id (1,2,3 κλπ) και τα
-//credits που αντιστοιχούν στο συγκεκριμένο module
-$modules_by_course = [];
-foreach ($modules as $module) {
-    $modules_by_course[$module['course_id']][] = $module;
-}
-
-$conn->close();
 ?>
-
-
-<!--Προσπάθησα επανηλημένως να καλώ τα script απο 2 αρχεία js για τη δημιουργία 
-    των γραφημάτων αλλά δεν μου εμφάνιζε τα γραφήματα στην σελίδα, για αυτό τα ενσωμάτωσα εδώ-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -67,8 +67,19 @@ $conn->close();
         }
     </style>
     <script>
+        function toggleSidebar() {
+            var sidebar = document.querySelector('.sidebar');
+            var main = document.querySelector('.main');
+            if (sidebar.style.width === '0px' || sidebar.style.width === '') {
+                sidebar.style.width = '200px';
+                main.style.marginLeft = '220px';
+            } else {
+                sidebar.style.width = '0px';
+                main.style.marginLeft = '0px';
+            }
+        }
+
         function createPieChart(courseId, moduleNames, moduleCredits) {
-            console.log("Creating pie chart for course ID:", courseId);
             var ctx = document.getElementById('pieChart' + courseId).getContext('2d');
             new Chart(ctx, {
                 type: 'pie',
@@ -110,15 +121,13 @@ $conn->close();
             });
         }
 
-        function createBarChart(courseLabels, datasets) {
-            console.log("Creating bar chart with labels:", courseLabels);
-            console.log("Datasets:", datasets);
+        function createBarChart(barLabels, barDatasets) {
             var ctx = document.getElementById('barChart').getContext('2d');
             new Chart(ctx, {
                 type: 'bar',
                 data: {
-                    labels: courseLabels,
-                    datasets: datasets
+                    labels: barLabels,
+                    datasets: barDatasets
                 },
                 options: {
                     responsive: true,
@@ -141,8 +150,6 @@ $conn->close();
         }
 
         window.onload = function() {
-            console.log("Chart.js loaded:", typeof Chart !== 'undefined');
-
             <?php foreach ($courses as $course): ?>
                 var moduleNames = [];
                 var moduleCredits = [];
@@ -151,7 +158,6 @@ $conn->close();
                     moduleCredits.push(<?php echo $module['credits']; ?>);
                 <?php endforeach; ?>
 
-                console.log("Calling createPieChart for course ID:", <?php echo $course['id']; ?>);
                 createPieChart(<?php echo $course['id']; ?>, moduleNames, moduleCredits);
             <?php endforeach; ?>
 
@@ -162,16 +168,13 @@ $conn->close();
                 <?php foreach ($courses as $course): ?>
                     var courseModules = <?php echo json_encode($modules_by_course[$course['id']]); ?>;
                     var courseLabel = '<?php echo $course['title']; ?>';
+
                     var courseData = [];
-                    var courseModuleNames = [];
+                    var moduleNames = [];
 
                     for (var i = 0; i < courseModules.length; i++) {
-                        courseModuleNames.push(courseModules[i].module_name);
+                        moduleNames.push(courseModules[i].module_name);
                         courseData.push(courseModules[i].credits);
-                    }
-
-                    if (barLabels.length === 0) {
-                        barLabels = courseModuleNames;
                     }
 
                     barDatasets.push({
@@ -181,10 +184,11 @@ $conn->close();
                         borderColor: 'rgba(54, 162, 235, 1)',
                         borderWidth: 1
                     });
-                <?php endforeach; ?>
 
-                console.log("Bar Labels:", barLabels);
-                console.log("Bar Datasets:", barDatasets);
+                    if (barLabels.length === 0) {
+                        barLabels = moduleNames;
+                    }
+                <?php endforeach; ?>
 
                 createBarChart(barLabels, barDatasets);
             <?php endif; ?>
@@ -192,10 +196,17 @@ $conn->close();
     </script>
 </head>
 <body>
-    <header>
-        <h1>Course Report</h1>
-    </header>
-    <main>
+    <div class="header-wrapper">
+        <div class="toggle-btn" onclick="toggleSidebar()">☰</div>
+        <header>
+            <h1>Course Report</h1>
+        </header>
+    </div>
+    <div class="sidebar">
+        <a href="index.php">Homepage</a>
+        <a href="newCourse.php" class="active">New Course</a>        
+    </div>
+    <div class="main">
         <?php foreach ($courses as $course): ?>
             <h2><?php echo $course['title']; ?></h2>
             <table border="1">
@@ -206,7 +217,7 @@ $conn->close();
                 <tr><th>Fees and Funding</th><td><?php echo $course['fees_funding']; ?></td></tr>
                 <tr><th>FAQs</th><td><?php echo $course['faqs']; ?></td></tr>
             </table>
-            
+
             <canvas id="pieChart<?php echo $course['id']; ?>" width="400" height="400"></canvas>
         <?php endforeach; ?>
 
@@ -215,7 +226,7 @@ $conn->close();
                 <canvas id="barChart"></canvas>
             </div>
         <?php endif; ?>
-    </main>
+    </div>
     <footer>&copy; CSYM019 2024</footer>
 </body>
 </html>

@@ -62,16 +62,32 @@ $conn->close();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Course</title>
     <link rel="stylesheet" href="pageStyle.css">
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.querySelector('.sidebar');
+            var main = document.querySelector('.main');
+            if (sidebar.style.width === '0px' || sidebar.style.width ==='') {
+                sidebar.style.width = '200px';
+                main.style.marginLeft = '220px';
+            } else {
+                sidebar.style.width = '0px';
+                main.style.marginLeft = '0px';
+            }
+        }
+    </script>
 </head>
 <body>
-    <header>
-        <h1>Add New Course</h1>
-    </header>
-    <div class="sidebar">
-            <a href="index.php">Homepage</a>
-            <a href="newCourse.php" class="active">New Course</a>
+    <div class="header-wrapper">
+        <div class="toggle-btn" onclick="toggleSidebar()">☰</div>
+        <header>
+            <h1>Add New Course</h1>
+        </header>
     </div>
-    <main>
+    <div class="sidebar">
+        <a href="index.php">Homepage</a>
+        <a href="newCourse.php" class="active">New Course</a>        
+    </div>
+    <div class="main">
         <h1>Enter course Details</h1>
         <form action="newCourse.php" method="post">
             <label for="title">Title:</label>
@@ -104,7 +120,7 @@ $conn->close();
 
             <input type="submit" value="Add Course" class="add-button">
         </form>
-    </main>
+    </div>
     <footer>&copy; CSYM019 2024</footer>
     <script src="newCourse.js"></script>
 </body>

@@ -1,110 +1,74 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas:
-        "header header"
-        "sidebar main"
-        "footer footer";
-    height: 100vh;
+    font-family: "Lato", sans-serif;
 }
 
-header {
-    grid-area: header;
-    background-color: #555;
-    color: white;
-    padding: 20px;
-    text-align: center;
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header-wrapper header {
+    flex: 1;
+    text-align: center; /* Εξασφαλίζει το κεντράρισμα του κειμένου */
 }
 
 .sidebar {
-    grid-area: sidebar;
-    background-color: #f4f4f4;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
 .sidebar a {
-    display: block;
-    padding: 10px;
-    color: #333;
+    padding: 8px 8px 8px 16px;
     text-decoration: none;
-    margin-bottom: 10px;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
 
-.sidebar a.active, .sidebar a:hover {
-    background-color: #555;
-    color: white;
+.sidebar a:hover {
+    color: #f1f1f1;
 }
 
-.add-button {
-    padding: 10px;
-    background-color: #555;
-    color: white;
-    border: none;
+.main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+    margin-left: 220px; /* Ensures content does not hide behind sidebar */
+}
+
+.toggle-btn {
+    font-size: 30px;
     cursor: pointer;
-    text-align: center;
-    width: 100%;
-    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #111;
+    color: white;
+    z-index: 2;
+    position: fixed;
+    top: 10px;
+    left: 10px;
 }
 
-.add-button:hover {
-    background-color: #333;
-}
-
-main {
-    grid-area: main;
-    padding: 20px;
-    overflow-y: auto;
+.fixed-buttons {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 footer {
-    grid-area: footer;
-    background-color: #555;
+    background: #333;
     color: white;
+    padding: 1em;
     text-align: center;
-    padding: 10px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin-top: 10px;
-}
-
-form input[type="text"], form textarea, form input[type="number"] {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-}
-
-form textarea {
-    height: 100px;
-}
-
-#modules {
-    margin-top: 10px;
-}
-
-.module {
-    display: flex;
-    flex-direction: row;
-    margin-top: 5px;
-}
-
-.module input[type="text"] {
-    flex: 2;
-    margin-right: 10px;
-}
-
-.module input[type="number"] {
-    flex: 1;
 }

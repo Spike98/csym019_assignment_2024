@@ -121,10 +121,10 @@ $conn->close();
             <div id="modules">
                 <!-- δυναμικά πεδία για modules -->
             </div>
-            <button type="button" onclick="addModule()">Add Module</button>
-            <button type="button" onclick="removeModule()">Remove Module</button><br>
+            <button  type="button" onclick="addModule()">Add Module</button>
+            <button  type="button" onclick="removeModule()">Remove Module</button><br>
 
-            <input type="submit" value="Add Course" class="add-button">
+            <input class="addCourseBtn" type="submit" value="Add Course" class="add-button">
         </form>
     </div>
     <footer>&copy; CSYM019 2024</footer>

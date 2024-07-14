@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($stmt->execute()) {
         echo "New user created successfully.";
-        header("Location: loginPage.php"); //ανακατεύθυνση στη σελίδα logi
+        header("Location: loginPage.php"); //ανακατεύθυνση στη σελίδα login
         exit();                            //μετά τη δημιουργία χρήστη
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;

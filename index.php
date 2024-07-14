@@ -18,18 +18,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete'])) {
     if (!empty($_POST['course_ids'])) {
         $course_ids = $_POST['course_ids'];
 
-        // placeholders για την SQL εντολή
+       // placeholders για την SQL εντολή διαγραφής courses/modules, η οποία θα χρησιμοποιηθεί πολλές φορές για διάφορα δεδομένα. 
+       // Δημιουργούμε έναν πίνακα με αριθμό στοιχείων ίσο με τα course_ids που ειναι αποθηκευμένα στη database και κάθε στοιχείο έχει το σύμβολο “?”. 
+       //μετατρέπουμε τον πίνακα σε συμβολοσειρά με χρήση της implode και προκύπτει μια συμβολοσειρά με μορφή: “?,?,?” 
         $placeholders = implode(',', array_fill(0, count($course_ids), '?'));
 
         // Διαγραφή σχετικών εγγραφών από τον πίνακα modules
         $sql_delete_modules = "DELETE FROM modules WHERE course_id IN ($placeholders)";
         $stmt_delete_modules = $conn->prepare($sql_delete_modules);
         $types = str_repeat('i', count($course_ids));
-        $stmt_delete_modules->bind_param($types, ...$course_ids);
-        $stmt_delete_modules->execute();
-        $stmt_delete_modules->close();
+        //δέσμευση πραγματικών τιμών course_id σε αντίστοιχα placeholders
+        $stmt_delete_modules->bind_param($types, ...$course_ids); //”...” διασπά το course id σε statements 
+        $stmt_delete_modules->execute();    //εκτέλεση
+        $stmt_delete_modules->close();      //κλείσιμο και αποδέσμευση
 
-        // Διαγραφή εγγραφών από τον πίνακα courses
+        // διαγραφή εγγραφών από τον πίνακα courses με την 
+        // ίδια λογική όπως στον πίνακα modules, απλά έπρεπε πρώτα 
+        // να διαγράφονται τα modules αφού εμπεριέχουν το course_id που τα συνδέει 
+        // με τον πίνακα courses 
         $sql_delete_courses = "DELETE FROM courses WHERE id IN ($placeholders)";
         $stmt_delete_courses = $conn->prepare($sql_delete_courses);
         $stmt_delete_courses->bind_param($types, ...$course_ids);

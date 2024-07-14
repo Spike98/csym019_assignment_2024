@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['generate_report'])) {
         die("Connection failed: " . $conn->connect_error);
     }
 
-    // ανάκτηση δεδομένων από τον πίνακα courses
+    //ανάκτηση δεδομένων από τον πίνακα courses με χρήση placeholders και εδώ 
     $placeholders = implode(',', array_fill(0, count($course_ids), '?'));
     $sql_courses = "SELECT * FROM courses WHERE id IN ($placeholders)";
     $stmt_courses = $conn->prepare($sql_courses);
